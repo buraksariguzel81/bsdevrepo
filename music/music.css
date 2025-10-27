@@ -1,4 +1,4 @@
-/* Otomatik müzik stilleri - 2025-10-27 23:56:33 */
+/* Otomatik müzik stilleri - 2025-10-28 00:19:14 */
 
 /* M1_40 */
 .music-M1_40 {
@@ -10,7 +10,7 @@
     height: 100px;
     display: inline-block;
     border-radius: 8px;
-    border: 2px solid purple;
+    border: 2px solid #eee;
     margin: 5px;
     cursor: pointer;
     position: relative;
@@ -20,7 +20,6 @@
     transform: scale(1.1);
     transition: transform 0.3s ease;
     border-color: #ff6b6b;
-    
 }
 
 .music-M1_40::after {
@@ -256,49 +255,6 @@
 }
 
 .audio-barkod-okuyucu_sesi {
-    display: none;
-}
-
-/* gazagetirenmuzik */
-.music-gazagetirenmuzik {
-    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjZmY2YjZiIi8+CjxwYXRoIGQ9Ik01MCAyMEw3MCA0MEg1MEw0MCA0MFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik01MCA0MEw3MCA2MEg1MEw0MCA2MFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik01MCA2MEw3MCA4MEg1MEw0MCA4MFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    border-radius: 8px;
-    border: 2px solid #eee;
-    margin: 5px;
-    cursor: pointer;
-    position: relative;
-}
-
-.music-gazagetirenmuzik:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
-    border-color: #ff6b6b;
-}
-
-.music-gazagetirenmuzik::after {
-    content: '▶';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0,0,0,0.7);
-    color: white;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-}
-
-.audio-gazagetirenmuzik {
     display: none;
 }
 
