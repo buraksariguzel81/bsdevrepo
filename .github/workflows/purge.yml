@@ -21,27 +21,28 @@ jobs:
         run: |
           echo "📝 Checking for changed files in the last commit..."
           CHANGED_FILES=$(git log -1 --name-only --pretty=format: | grep -E '^(font|meyveler|music)/' | sort -u)
-          echo "changed_files=$CHANGED_FILES" >> $GITHUB_OUTPUT
           echo "Changed files: $CHANGED_FILES"
-
-      - name: Save changed files to a file
-        if: steps.changes.outputs.changed_files != ''
-        run: |
-          echo "💾 Saving changed files to logs/changed_files.txt..."
+          
+          # Dosya listesi logs/changed_files.txt içine
           mkdir -p logs
-          echo "${{ steps.changes.outputs.changed_files }}" | tr ' ' '\n' > logs/changed_files.txt
-          echo "Saved at logs/changed_files.txt"
-
-      - name: Purge jsDelivr cache for changed folders
-        if: steps.changes.outputs.changed_files != ''
-        run: |
-          echo "🧹 Purging jsDelivr cache for changed folders..."
+          echo "$CHANGED_FILES" | tr ' ' '\n' > logs/changed_files.txt
+          
+          # Klasör bazlı liste için tmp dosya
           mkdir -p /tmp/dirs_to_purge
-          for FILE in ${{ steps.changes.outputs.changed_files }}; do
+          for FILE in $CHANGED_FILES; do
             DIR=$(dirname "$FILE")
             echo "$DIR" >> /tmp/dirs_to_purge/dirs.txt
           done
-          sort -u /tmp/dirs_to_purge/dirs.txt | while read DIR; do
+
+          # Tekil klasörleri output olarak ayarla
+          CHANGED_DIRS=$(sort -u /tmp/dirs_to_purge/dirs.txt | tr '\n' ' ')
+          echo "changed_dirs=$CHANGED_DIRS" >> $GITHUB_OUTPUT
+
+      - name: Purge jsDelivr cache for changed folders
+        if: steps.changes.outputs.changed_dirs != ''
+        run: |
+          echo "🧹 Purging jsDelivr cache for changed folders..."
+          for DIR in ${{ steps.changes.outputs.changed_dirs }}; do
             # URL encode boşluk ve özel karakterler için
             PURGE_URL=$(echo "$DIR" | sed 's/ /%20/g')
             echo "🚀 Purging cache for $DIR..."
@@ -55,6 +56,5 @@ jobs:
           echo "✅ jsDelivr cache purge workflow completed successfully!"
           echo "Repository: buraksariguzel81/buraksariguzeldev"
           echo "Branch: main"
-          echo "Purged folders:"
-          sort -u /tmp/dirs_to_purge/dirs.txt
+          echo "Purged folders: ${{ steps.changes.outputs.changed_dirs }}"
           echo "Changed files saved at logs/changed_files.txt"
