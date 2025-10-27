@@ -38,18 +38,18 @@ include($_SERVER['DOCUMENT_ROOT'] . '/assets/src/include/navigasyon.php');
               <h6 class="text-center mb-3"><i class="fas fa-sign-in-alt me-2"></i>Giriş Yap</h6>
               <form method="post" action="auth/giris_islemleri/giris.php">
                 <div class="mb-2">
-                  <input type="text" class="form-control form-control-sm" name="kullanici" placeholder="Kullanıcı Adı" disabled>
+                  <input type="text" class="form-control form-control-sm" name="kullanici" placeholder="Kullanıcı Adı" >
                 </div>
                 <div class="mb-2">
-                  <input type="password" class="form-control form-control-sm" name="sifre" placeholder="Şifre" disabled>
+                  <input type="password" class="form-control form-control-sm" name="sifre" placeholder="Şifre" >
                 </div>
                 <div class="form-check mb-2">
-                  <input class="form-check-input" type="checkbox" name="benihatirla" id="benihatirla" disabled>
+                  <input class="form-check-input" type="checkbox" name="benihatirla" id="benihatirla">
                   <label class="form-check-label form-check-label-sm" for="benihatirla">
                     Beni Hatırla
                   </label>
                 </div>
-                <button type="submit" name="giris" class="btn btn-secondary btn-sm w-100" disabled>
+                <button type="submit" name="giris" class="btn btn-secondary btn-sm w-100" >
                   <i class="fas fa-ban me-1"></i> Giriş Yasak
                 </button>
               </form>

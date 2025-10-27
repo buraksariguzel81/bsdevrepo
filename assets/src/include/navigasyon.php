@@ -105,7 +105,7 @@ if ($kullanici_adi) {
    
   </div>
     <?php if (!$kullanici_adi): ?>
-      <button class="btn btn-outline-secondary" disabled title="Proje İptal Edilmiştir">
+      <button class="btn btn-outline-secondary">
         <i class="fas fa-ban"></i>
       </button>
     <?php else : ?>
@@ -165,11 +165,11 @@ if ($kullanici_adi) {
 
 
 <?php
-// $aktifSayfa = basename($_SERVER['PHP_SELF']);
-// $izinliSayfalar = ['index.php', 'giris.php', 'kayit.php'];
+$aktifSayfa = basename($_SERVER['PHP_SELF']);
+$izinliSayfalar = ['index.php', 'giris.php', 'kayit.php'];
 
-// if (!$kullanici_adi && !in_array($aktifSayfa, $izinliSayfalar)): ?>
-<?php if (!$kullanici_adi): ?>
+if (!$kullanici_adi && !in_array($aktifSayfa, $izinliSayfalar)): ?>
+
     <div class="container mt-20">
         <div class="row justify-content-center mt-5">
             <div class="col-md-8 col-lg-6">
