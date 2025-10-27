@@ -25,7 +25,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/assets/src/include/navigasyon.php');
         <?php if (!$kullanici_adi): ?>
           <!-- Giriş yapmamış kullanıcılar için giriş formu ve kayıt linki -->
           <h5 class="card-title text-primary mb-3">
-            <i class="fas fa-home me-2"></i> Hoş Geldiniz
+            <i class="fas fa-home me-2"></i> Hoş Geldiniz kardesim
           </h5>
           <p class="text-muted mb-4">
             <strong>buraksariguzeldev.wuaze.com</strong> sitesine hoş geldiniz.
