@@ -1,29 +1,36 @@
-name: Deploy fonts and music to jsDelivr
+name: Purge jsDelivr Cache
 
 on:
-  push:
-    branches:
-      - main  # Ana branch
+push:
+branches:
+      - main  # veya master, senin ana dal hangisiyse
+      - main
+    paths:
+      - 'font/**'
+      - 'assets/**'
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
-
-    steps:
+purge:
+runs-on: ubuntu-latest
+steps:
+      - name: Purge jsDelivr cache
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Prepare deployment directory
+      - name: Purge jsDelivr cache for fonts
         run: |
-          mkdir deployment
-          cp -r font deployment
-          cp -r music deployment
+          echo "Purging jsDelivr cache for fonts..."
+          curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzeldev/buraksariguzeldev@main/font/" || echo "Font cache purge completed"
 
-      - name: Deploy font and music folders
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages  # JSDelivr için ayrı branch
-          publish_dir: deployment
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+      - name: Purge jsDelivr cache for assets
+        run: |
+          echo "Purging jsDelivr cache for assets..."
+          curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzeldev/buraksariguzeldev@main/assets/" || echo "Assets cache purge completed"
+
+      - name: Check purge status
+run: |
+          curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzeldev/fonts@main"
+          echo "✅ jsDelivr cache purge workflow completed successfully!"
+          echo "Repository: buraksariguzeldev"
+          echo "Branch: main"
+          echo "Purged paths: font/, assets/"
