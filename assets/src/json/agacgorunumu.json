@@ -1,0 +1,397 @@
+{
+    ".git": {
+        "0": "FETCH_HEAD",
+        "1": "HEAD",
+        "2": "config",
+        "3": "description",
+        "hooks": [
+            "applypatch-msg.sample",
+            "commit-msg.sample",
+            "fsmonitor-watchman.sample",
+            "post-update.sample",
+            "pre-applypatch.sample",
+            "pre-commit.sample",
+            "pre-merge-commit.sample",
+            "pre-push.sample",
+            "pre-rebase.sample",
+            "pre-receive.sample",
+            "prepare-commit-msg.sample",
+            "push-to-checkout.sample",
+            "sendemail-validate.sample",
+            "update.sample"
+        ],
+        "4": "index",
+        "info": [
+            "exclude"
+        ],
+        "logs": {
+            "0": "HEAD",
+            "refs": {
+                "heads": [
+                    "main"
+                ],
+                "remotes": {
+                    "origin": [
+                        "HEAD"
+                    ]
+                }
+            }
+        },
+        "objects": {
+            "07": [
+                "21460d6dbf17c7b7a5c57c46b1ed34e2eafcf3",
+                "d04d75a8c32b3810dd4b7f1b473ede65908956"
+            ],
+            "info": [],
+            "pack": [
+                "pack-3d5b145f830d51b4ae44d5a9bf53e4450b30f601.idx",
+                "pack-3d5b145f830d51b4ae44d5a9bf53e4450b30f601.pack",
+                "pack-3d5b145f830d51b4ae44d5a9bf53e4450b30f601.rev"
+            ]
+        },
+        "5": "packed-refs",
+        "refs": {
+            "heads": [
+                "main"
+            ],
+            "remotes": {
+                "origin": [
+                    "HEAD"
+                ]
+            },
+            "tags": []
+        }
+    },
+    "0": ".htaccess",
+    "H\u0131zl\u0131_klas\u00f6r": {
+        "sendpulse": [
+            "sendpulse.php"
+        ]
+    },
+    "1": "access_log",
+    "api": {
+        "mailersendapi": [
+            "mailersendapi.php"
+        ]
+    },
+    "archive": {
+        "0": "archive.php",
+        "archive_html": [
+            "emmet.php",
+            "ozelkrakter.php"
+        ],
+        "archive_php": [
+            "giris_kontrolu.php",
+            "session.php"
+        ]
+    },
+    "assets": {
+        "src": {
+            "config": [
+                "config.php",
+                "vt_baglanti.php"
+            ],
+            "css": [
+                "bsd-button.css",
+                "bsd_ba\u011flant\u0131.css",
+                "bsd_etiket.css",
+                "bsd_form.css",
+                "bsd_hesaplar.css",
+                "bsd_nav.css",
+                "bsd_tablo.css",
+                "index.css",
+                "main.css"
+            ],
+            "include": [
+                "cssfont.php",
+                "fontheader.php",
+                "footer.php",
+                "header.php",
+                "menu_items.php",
+                "navigasyon.php",
+                "rol_kontrol.php",
+                "script.php",
+                "siteurl.php",
+                "styles.php",
+                "tarih_saat.php"
+            ],
+            "js": [
+                "copy.js",
+                "footer_loader.js",
+                "main.js",
+                "menu_loader.js",
+                "rol_kontrol.js"
+            ],
+            "json": [
+                "agacgorunumu.json"
+            ],
+            "kontrol": [
+                "bsd_form.js",
+                "bsd_kontrol.php"
+            ],
+            "logs": [
+                "vt_durum.log"
+            ],
+            "php": [
+                "kullanici_adi.php"
+            ],
+            "txt": [
+                "mailersend_api.txt"
+            ]
+        }
+    },
+    "auth": {
+        "0": "auth.php",
+        "ayar_islemleri": [
+            "ayarlar.php",
+            "cronbilgi.php",
+            "gizlilik.php",
+            "guvenlik.php",
+            "hesap_yonetimi.php",
+            "profil_duzenle.php"
+        ],
+        "cikis_islemleri": [
+            "logout.php"
+        ],
+        "giris_islemleri": [
+            "banli_kullanici.php",
+            "giris.php",
+            "giris_kontrolu.php",
+            "hesap_aktivasyon.php",
+            "php-error.log"
+        ],
+        "kayit_islemleri": [
+            "kayit.php"
+        ],
+        "kullanici_islemleri": [
+            "kullanici_bankaldir.php",
+            "kullanici_banla.php",
+            "kullanici_sil.php",
+            "kullan\u0131c\u0131_durumu.php",
+            "kullan\u0131c\u0131_listesi.php",
+            "pasif_kullan\u0131c\u0131_listesi.php"
+        ],
+        "profil_islemleri": [
+            "profile.php"
+        ],
+        "rol_islemleri": [
+            "rol_durumu.php",
+            "rol_listesi.php"
+        ]
+    },
+    "error": [
+        "400.php",
+        "401.php",
+        "402.php",
+        "403.php",
+        "404.php",
+        "405.php",
+        "406.php",
+        "408.php",
+        "409.php",
+        "410.php",
+        "500.php",
+        "error.php"
+    ],
+    "font": {
+        "Alba": [
+            "Alba.woff",
+            "Alba.woff2",
+            "demo.html",
+            "stylesheet.css"
+        ],
+        "Argor_Biw_Scaqh": [
+            "ArgorBiwScaqh.woff",
+            "ArgorBiwScaqh.woff2",
+            "demo.html",
+            "stylesheet.css"
+        ],
+        "BlackOpsOne": [
+            "BlackOpsOne-Regular.woff2"
+        ],
+        "Brolink": [
+            "BrolinkDEMO.woff",
+            "BrolinkDEMO.woff2"
+        ],
+        "Langdon": [
+            "Langdon.woff",
+            "Langdon.woff2"
+        ],
+        "LeviBrush": [
+            "LeviBrush.woff",
+            "LeviBrush.woff2",
+            "demo.html",
+            "stylesheet.css"
+        ],
+        "Moonstar": [
+            "Moonstar.woff",
+            "Moonstar.woff2"
+        ],
+        "Nabla": [
+            "NablaRegular.woff",
+            "NablaRegular.woff2"
+        ],
+        "PottaOne": [
+            "PottaOneRegular.woff2"
+        ],
+        "Righteous": [
+            "RighteousRegular.woff",
+            "RighteousRegular.woff2"
+        ],
+        "Skranji": [
+            "Skranji.woff",
+            "Skranji.woff2"
+        ],
+        "SquimFont": [
+            "SquimFont.woff",
+            "SquimFont.woff2"
+        ],
+        "Turkish_Participants": [
+            "TurkishParticipants.woff",
+            "TurkishParticipants.woff2",
+            "Turkish_Participants.html",
+            "demo.html",
+            "stylesheet.css"
+        ],
+        "UnicornPop": [
+            "UnicornPop.woff",
+            "UnicornPop.woff2"
+        ],
+        "ethnocentric": [
+            "ethnocentric-rg.woff"
+        ],
+        "0": "font.css",
+        "1": "font.php"
+    },
+    "game": [
+        "lego_oyunu.php"
+    ],
+    "2": "hizlidosya.php",
+    "icon": {
+        "0": "all.css",
+        "1": "all.js",
+        "2": "all.min.css",
+        "3": "fontawesome.min.css",
+        "4": "icon.css",
+        "5": "icon.php",
+        "webfonts": [
+            "fa-brands-400.ttf",
+            "fa-brands-400.woff2",
+            "fa-regular-400.ttf",
+            "fa-regular-400.woff2",
+            "fa-solid-900.ttf",
+            "fa-solid-900.woff2",
+            "fa-v4compatibility.ttf",
+            "fa-v4compatibility.woff2"
+        ]
+    },
+    "img": [
+        "BSclear.png",
+        "Siyah Modern Teknoloji ve Yaz\u0131l\u0131m \u015eirketi Logosu_20240502_231107_0000.png",
+        "border.png",
+        "bsd_logo.png",
+        "turk bayragi.jpeg"
+    ],
+    "3": "index.php",
+    "mail": {
+        "Sifre_Sifirla": [
+            "sifre_sifirla.php"
+        ],
+        "eposta_gonderme": [
+            "eposta_gonderme_ms.php"
+        ]
+    },
+    "modules": {
+        "class": [
+            "class.php",
+            "iciceclass.php",
+            "icondegisim.php"
+        ],
+        "custom": [
+            "adduzenle.php",
+            "custom.php",
+            "de\u011fi\u015fken_duzenle.php",
+            "incdegis.php",
+            "inckaldir.php",
+            "kodduzenleyici.php",
+            "lang.php",
+            "olustur.php",
+            "silme.php",
+            "tasima.php"
+        ],
+        "data": [
+            "agacgorunumu.php",
+            "aynisim.php",
+            "data.php",
+            "disk_kullanimi.php",
+            "dosyaindir.php",
+            "enbuyukenkucuk.php",
+            "klasorsayisi.php",
+            "liste.php",
+            "olu\u015fturulma.php",
+            "sonde\u011fi\u015fiklik.php",
+            "uzantisayisi.php",
+            "uzant\u0131lar.php"
+        ],
+        "0": "modules.php"
+    },
+    "music": [
+        "KARA SEVDA-Emir Kozcuo\u011flu Telefon Zil Sesi.mp3",
+        "M1_40.mp3",
+        "M3_40.wav",
+        "Mustafa Cihat- Fizani _ 2019 Yeni Tamam\u0131.mp3",
+        "Over_the_Horizon.mp3",
+        "askinolayim.mp3",
+        "gazagetirenmuzik.mp3"
+    ],
+    "panel": {
+        "adminpanel": [
+            "adminpanel.php"
+        ],
+        "erkekpanel": [
+            "erkekpanel.php"
+        ],
+        "kadinpanel": [
+            "kadinpanel.php"
+        ],
+        "kurucupanel": [
+            "kurucupanel.php"
+        ],
+        "0": "panel.php"
+    },
+    "private": {
+        "code": [
+            "phpkodlari.php"
+        ],
+        "0": "private.php"
+    },
+    "project": {
+        "1.Zamanhesaplama": [
+            "history.txt",
+            "zamanhesap.css",
+            "zamanhesap.js",
+            "zamanhesap.php"
+        ],
+        "0": "project.css",
+        "1": "project.php"
+    },
+    "4": "siteharitasi.php",
+    "5": "sync.ffs_db",
+    "tasks": {
+        "task": [
+            "task1.php",
+            "task2.php"
+        ],
+        "0": "tasks.css",
+        "1": "tasks.js",
+        "2": "tasks.php"
+    },
+    "terminal": [
+        "send_email.sh"
+    ],
+    "web": [
+        "web.css",
+        "web.php",
+        "web_items.php"
+    ]
+}

@@ -1,0 +1,4 @@
+[28-Jan-2025 06:56:13 Europe/Brussels] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /storage/emulated/0/bsdev_yedek/auth/giris_islemleri/giris.php:30
+Stack trace:
+#0 {main}
+  thrown in /storage/emulated/0/bsdev_yedek/auth/giris_islemleri/giris.php on line 30

@@ -1,0 +1,28 @@
+@import url('../../.bsd_yonetim/src/css/main.css');
+
+.fa-alibay,
+.fa-alibay1 {
+   width: 1px;
+   padding: 10px;
+   background-repeat: no-repeat;
+}
+
+.fa-alibay {
+   background-image: url('../fontawesome-free-6.4.2-web/svgs/brands/alipay.svg');
+}
+
+.fa-alibay1 {
+   background-image: url('../fontawesome-free-6.4.2-web/svgs/brands/android.svg');
+}
+
+.fa-alibay2 {
+   background-image: url('../fontawesome-free-6.4.2-web/svgs/regular/calendar-minus.svg');
+}
+
+.fa-turkbayragi {
+   padding: 15px;
+   background-repeat:no-repeat ;
+   background-position: center;
+   background-image: url('../img/turk bayragi.jpeg');
+
+}

@@ -1,0 +1,47 @@
+@import url("../../.bsd_yonetim/src/css/main.css");
+
+
+
+#checkboxes {
+max-width: 600px;
+margin: auto;
+padding: 20px;
+background-color: grey;
+color: white;
+border-radius: 15px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="checkbox"] {
+margin-right: 10px;
+}
+
+label {
+display: block;
+margin-bottom: 12px;
+padding: 8px;
+background-color:#f3f3 ;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+color:black;
+}
+
+label:hover {
+background-color: #f3f3;
+}
+/* Mevcut stil kurallarınızın devamına ekleyin */
+
+ol {
+  list-style-type: none; /* Numaralandırma işaretlerini kaldır */
+  counter-reset: my-counter; /* Sayaçıyı sıfırla */
+}
+
+ol li::before {
+  content: counter(my-counter); /* Sayacın değerini göster */
+  color: #333; /* Sayı rengini ayarla */
+  margin-right: 0.5em; /* Sayı ile metin arasındaki boşluğu ayarla */
+  counter-increment: my-counter; /* Sayacı artır */
+}
+
+

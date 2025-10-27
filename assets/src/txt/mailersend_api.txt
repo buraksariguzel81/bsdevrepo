@@ -1,0 +1,72 @@
+    $url = 'https://api.mailersend.com/v1/email';
+    $apiKey = 'mlsn.d35e7f67f108c293034b45a848d501403b157471b9fb16f872720620231628ab';
+
+    $emailContent = "
+    <html>
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+            }
+            .container {
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #f9f9f9;
+                border-radius: 5px;
+            }
+            h1 {
+                color: #0056b3;
+            }
+            .verification-code {
+                font-size: 24px;
+                font-weight: bold;
+                color: #0056b3;
+                margin: 20px 0;
+            }
+            .btn {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #0056b3;
+                color: #ffffff;
+                text-decoration: none;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='container'>
+            <h1>Merhaba {$_SESSION["temp_kullanici"]},</h1>
+            <p>E-posta doğrulama kodunuz:</p>
+            <p class='verification-code'>$verificationCode</p>
+            <p>Veya aşağıdaki butona tıklayarak hesabınızı doğrulayabilirsiniz:</p>
+            <p><a href='$verificationLink' class='btn'>Hesabımı Doğrula</a></p>
+            <p>Bu link 3 saat içinde geçerliliğini yitirecektir.</p>
+            <p>Saygılarımızla,<br>buraksariguzeldev Ekibi</p>
+        </div>
+    </body>
+    </html>
+    ";
+
+    $data = [
+        'from' => [
+            'email' => 'noreply@trial-neqvygm27k540p7w.mlsender.net',
+            'name' => 'buraksariguzeldev'
+        ],
+        'to' => [
+            [
+                'email' => $email,
+                'name' => $_SESSION["temp_kullanici"]
+            ]
+        ],
+        'subject' => 'E-posta Doğrulama',
+        'html' => $emailContent,
+    ];
+    
+    
+    if (!isset($_SESSION['kullanici_adi'])) {
+    header("Location: ../../../index.php");
+    exit;
+}
