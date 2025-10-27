@@ -21,7 +21,6 @@ jobs:
         id: changes
         run: |
           echo "📝 Checking for changed files in the last commit..."
-          # Son commit'te değişen dosyaları al
           CHANGED_FILES=$(git log -1 --name-only --pretty=format: | grep -E '^(font|assets|meyveler|music)/' | sort -u)
           echo "changed_files=$CHANGED_FILES" >> $GITHUB_OUTPUT
           echo "Changed files: $CHANGED_FILES"
@@ -29,7 +28,7 @@ jobs:
       - name: Save changed files to a file
         if: steps.changes.outputs.changed_files != ''
         run: |
-          echo "💾 Saving changed files to changed_files.txt..."
+          echo "💾 Saving changed files to logs/changed_files.txt..."
           mkdir -p logs
           echo "${{ steps.changes.outputs.changed_files }}" | tr ' ' '\n' > logs/changed_files.txt
           echo "Saved at logs/changed_files.txt"
@@ -38,13 +37,16 @@ jobs:
         if: steps.changes.outputs.changed_files != ''
         run: |
           echo "🧹 Purging jsDelivr cache for changed folders..."
+          mkdir -p /tmp/dirs_to_purge
           for FILE in ${{ steps.changes.outputs.changed_files }}; do
             DIR=$(dirname "$FILE")
-            echo "$DIR" >> /tmp/dirs_to_purge.txt
+            echo "$DIR" >> /tmp/dirs_to_purge/dirs.txt
           done
-          sort -u /tmp/dirs_to_purge.txt | while read DIR; do
+          sort -u /tmp/dirs_to_purge/dirs.txt | while read DIR; do
+            # URL encode boşluk ve özel karakterler için
+            PURGE_URL=$(echo "$DIR" | sed 's/ /%20/g')
             echo "🚀 Purging cache for $DIR..."
-            curl -s -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/$DIR/" \
+            curl -s -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/$PURGE_URL/" \
             && echo "✅ Cache purge completed for $DIR" \
             || echo "⚠️ Failed to purge $DIR"
           done
@@ -55,5 +57,5 @@ jobs:
           echo "Repository: buraksariguzel81/buraksariguzeldev"
           echo "Branch: main"
           echo "Purged folders:"
-          sort -u /tmp/dirs_to_purge.txt
+          sort -u /tmp/dirs_to_purge/dirs.txt
           echo "Changed files saved at logs/changed_files.txt"
