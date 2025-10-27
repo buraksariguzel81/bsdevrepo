@@ -20,16 +20,21 @@ jobs:
       - name: Get changed files
         id: changes
         run: |
-          echo "📝 Checking for changed files..."
-          CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -E '^(font|assets|meyveler|music)/')
+          echo "📝 Checking for changed files in the last commit..."
+          # Son commit'te değişen dosyaları al
+          CHANGED_FILES=$(git log -1 --name-only --pretty=format: | grep -E '^(font|assets|meyveler|music)/' | sort -u)
           echo "changed_files=$CHANGED_FILES" >> $GITHUB_OUTPUT
+          echo "Changed files: $CHANGED_FILES"
 
-      - name: Purge jsDelivr cache for changed files
+      - name: Purge jsDelivr cache for changed folders
         if: steps.changes.outputs.changed_files != ''
         run: |
-          echo "🧹 Purging jsDelivr cache for changed files..."
+          echo "🧹 Purging jsDelivr cache for changed folders..."
           for FILE in ${{ steps.changes.outputs.changed_files }}; do
             DIR=$(dirname "$FILE")
+            echo "$DIR" >> /tmp/dirs_to_purge.txt
+          done
+          sort -u /tmp/dirs_to_purge.txt | while read DIR; do
             echo "🚀 Purging cache for $DIR..."
             curl -s -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/$DIR/" \
             && echo "✅ Cache purge completed for $DIR" \
@@ -41,4 +46,5 @@ jobs:
           echo "✅ jsDelivr cache purge workflow completed successfully!"
           echo "Repository: buraksariguzel81/buraksariguzeldev"
           echo "Branch: main"
-          echo "Purged paths: ${{ steps.changes.outputs.changed_files }}"
+          echo "Purged folders:"
+          sort -u /tmp/dirs_to_purge.txt
