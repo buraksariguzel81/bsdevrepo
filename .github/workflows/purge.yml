@@ -19,24 +19,24 @@ jobs:
 
       - name: Purge jsDelivr cache for all directories
         run: |
-          echo "🧹 Purging jsDelivr cache..."
-          declare -a PATHS=(
-            "font"
-            "assets"
-            "meyveler"
-            "music"
-          )
-
+          echo "🧹 Starting jsDelivr cache purge..."
+          
+          PATHS=("font" "assets" "meyveler" "music")
+          
           for DIR in "${PATHS[@]}"; do
             echo "🚀 Purging cache for $DIR..."
-            curl -s -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/$DIR/" \
-            && echo "✅ Cache purge completed for $DIR" \
-            || echo "⚠️ Failed to purge $DIR"
+            RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/$DIR/")
+            
+            if [[ "$RESPONSE" -eq 200 ]]; then
+              echo "✅ Cache purge completed for $DIR"
+            else
+              echo "⚠️ Failed to purge $DIR (HTTP status: $RESPONSE)"
+            fi
           done
 
-      - name: Check purge status
+      - name: Summary
         run: |
-          echo "✅ jsDelivr cache purge workflow completed successfully!"
+          echo "✅ jsDelivr cache purge workflow completed!"
           echo "Repository: buraksariguzel81/buraksariguzeldev"
           echo "Branch: main"
           echo "Purged paths: font/, assets/, meyveler/, music/"
