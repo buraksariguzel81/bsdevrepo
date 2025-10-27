@@ -25,7 +25,7 @@ jobs:
           curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/assets/" || echo "Assets cache purge done"
           curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/" || echo "Meyveler cache purge done"
           curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/music/" || echo "Music cache purge done"
-          curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/musicList.json" || echo "musicList.json purge done"
+          curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/music/musicList.json" || echo "musicList.json purge done"
 
       - name: Check purge status
         run: |
