@@ -2,7 +2,7 @@
 // Müzik yönetim sistemi - CDN uyumlu
 $music_dir = __DIR__; // Şu anki dosyanın bulunduğu dizin
 $css_file = $music_dir . '/music.css';
-$json_file = $music_dir . '/musicList.json';
+$json_file = $music_dir . '/muziklistesi.json';
 $cdn_base = 'https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/music/';
 
 // Desteklenen müzik formatları
