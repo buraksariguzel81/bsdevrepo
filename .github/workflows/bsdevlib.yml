@@ -1,0 +1,27 @@
+name: Deploy fonts and music to jsDelivr
+
+on:
+  push:
+    branches:
+      - main  # Ana branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Prepare deployment directory
+        run: |
+          mkdir deployment
+          cp -r font deployment
+          cp -r music deployment
+
+      - name: Deploy font and music folders
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages  # JSDelivr için ayrı branch
+          publish_dir: deployment
