@@ -1,4 +1,4 @@
-/* Otomatik meyve stilleri - 2025-10-27 16:55:21 */
+/* Otomatik meyve stilleri - 2025-10-27 20:14:09 */
 
 /* Havuç */
 .meyve-Havuç {
@@ -35,6 +35,26 @@
 }
 
 .meyve-avokado:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    border-color: #ff6b6b;
+}
+
+/* border */
+.meyve-border {
+    background-image: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/border.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #eee;
+    margin: 5px;
+}
+
+.meyve-border:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
     border-color: #ff6b6b;
