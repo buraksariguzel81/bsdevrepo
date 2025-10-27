@@ -9,7 +9,6 @@ on:
       - 'assets/**'
       - 'meyveler/**'
       - 'music/**'
-      - 'music/musicList.json'
 
 jobs:
   purge:
@@ -18,18 +17,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Purge jsDelivr cache for all assets
+      - name: Purge jsDelivr cache for all directories
         run: |
           echo "🧹 Purging jsDelivr cache..."
-          curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/font/" || echo "Font cache purge done"
-          curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/assets/" || echo "Assets cache purge done"
-          curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/" || echo "Meyveler cache purge done"
-          curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/music/" || echo "Music cache purge done"
-          curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/music/musicList.json" || echo "musicList.json purge done"
+          declare -a PATHS=(
+            "font"
+            "assets"
+            "meyveler"
+            "music"
+          )
+
+          for DIR in "${PATHS[@]}"; do
+            echo "🚀 Purging cache for $DIR..."
+            curl -s -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/$DIR/" \
+            && echo "✅ Cache purge completed for $DIR" \
+            || echo "⚠️ Failed to purge $DIR"
+          done
 
       - name: Check purge status
         run: |
           echo "✅ jsDelivr cache purge workflow completed successfully!"
           echo "Repository: buraksariguzel81/buraksariguzeldev"
           echo "Branch: main"
-          echo "Purged paths: font/, assets/, meyveler/, music/, musicList.json"
+          echo "Purged paths: font/, assets/, meyveler/, music/"
