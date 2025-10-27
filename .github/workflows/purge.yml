@@ -17,17 +17,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Purge jsDelivr cache for all directories
+      - name: Get changed files
+        id: changes
         run: |
-          echo "🧹 Purging jsDelivr cache..."
-          declare -a PATHS=(
-            "font"
-            "assets"
-            "meyveler"
-            "music"
-          )
+          echo "📝 Checking for changed files..."
+          CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -E '^(font|assets|meyveler|music)/')
+          echo "changed_files=$CHANGED_FILES" >> $GITHUB_OUTPUT
 
-          for DIR in "${PATHS[@]}"; do
+      - name: Purge jsDelivr cache for changed files
+        if: steps.changes.outputs.changed_files != ''
+        run: |
+          echo "🧹 Purging jsDelivr cache for changed files..."
+          for FILE in ${{ steps.changes.outputs.changed_files }}; do
+            DIR=$(dirname "$FILE")
             echo "🚀 Purging cache for $DIR..."
             curl -s -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/$DIR/" \
             && echo "✅ Cache purge completed for $DIR" \
@@ -39,4 +41,4 @@ jobs:
           echo "✅ jsDelivr cache purge workflow completed successfully!"
           echo "Repository: buraksariguzel81/buraksariguzeldev"
           echo "Branch: main"
-          echo "Purged paths: font/, assets/, meyveler/, music/"
+          echo "Purged paths: ${{ steps.changes.outputs.changed_files }}"
