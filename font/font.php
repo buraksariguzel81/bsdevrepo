@@ -1,5 +1,7 @@
 <?php
+include($_SERVER['DOCUMENT_ROOT'] . '/assets/src/include/navigasyon.php');
 // Font yönetim sistemi
+
 $font_dir = '.';
 $css_file = 'font.css';
 
@@ -63,7 +65,7 @@ $fonts = $matches[1];
 echo "<!DOCTYPE html><html><head><meta charset='utf-8'><title>Font Management System</title>";
 echo '<link rel="stylesheet" href="font.css">';
 echo "<style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
+    
     .container { max-width: 1200px; margin: 0 auto; }
     .header { background: #333; color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
     .font-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
@@ -78,7 +80,7 @@ echo "<style>
 </style>";
 echo "</head><body>";
 
-echo "<div class='container'>";
+echo "<div class='container  mt-5'>";
 echo "<div class='header'>";
 echo "<h1>🖋️ Font Management System</h1>";
 echo "<p>Font klasörünü otomatik tarar ve CSS dosyasını günceller</p>";

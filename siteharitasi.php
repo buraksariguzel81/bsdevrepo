@@ -42,6 +42,14 @@ $menu_items = [
         'link' => 'icon/icon.php',
         'icon' => 'fas fa-icons',
         'label' => 'Icon'
+    ],
+
+    [
+
+     'link' => 'meyveler/meyveler.php',
+        'icon' => 'fas fa-icons',
+        'label' => 'Icon'
+
     ]
 ];
 ?>

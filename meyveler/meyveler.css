@@ -1,0 +1,113 @@
+/* Otomatik meyve stilleri - 2025-10-27 14:43:37 */
+
+/* avokado */
+.meyve-avokado {
+    background-image: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/avokado.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.meyve-avokado:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* incir */
+.meyve-incir {
+    background-image: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/incir.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.meyve-incir:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* karpuz */
+.meyve-karpuz {
+    background-image: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/karpuz.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.meyve-karpuz:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* kavun */
+.meyve-kavun {
+    background-image: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/kavun.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.meyve-kavun:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* kivi */
+.meyve-kivi {
+    background-image: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/kivi.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.meyve-kivi:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* üzüm */
+.meyve-üzüm {
+    background-image: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/üzüm.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.meyve-üzüm:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* vişne */
+.meyve-vişne {
+    background-image: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/vişne.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.meyve-vişne:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
