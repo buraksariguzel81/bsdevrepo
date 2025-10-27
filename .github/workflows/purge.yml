@@ -20,7 +20,7 @@ jobs:
         id: changes
         run: |
           echo "📝 Checking for changed files in the last commit..."
-          CHANGED_FILES=$(git log -1 --name-only --pretty=format: | grep -E '^(font|assets|meyveler|music)/' | sort -u)
+          CHANGED_FILES=$(git log -1 --name-only --pretty=format: | grep -E '^(font|meyveler|music)/' | sort -u)
           echo "changed_files=$CHANGED_FILES" >> $GITHUB_OUTPUT
           echo "Changed files: $CHANGED_FILES"
 
