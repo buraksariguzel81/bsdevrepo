@@ -9,7 +9,7 @@ on:
       - 'assets/**'
       - 'meyveler/**'
       - 'music/**'
-      - 'musicList.json'
+      - 'music/musicList.json'
 
 jobs:
   purge:
