@@ -1,19 +1,17 @@
 name: Purge jsDelivr Cache
 
 on:
-push:
-branches:
-      - main  # veya master, senin ana dal hangisiyse
+  push:
+    branches:
       - main
     paths:
       - 'font/**'
       - 'assets/**'
 
 jobs:
-purge:
-runs-on: ubuntu-latest
-steps:
-      - name: Purge jsDelivr cache
+  purge:
+    runs-on: ubuntu-latest
+    steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -28,7 +26,7 @@ steps:
           curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzeldev/buraksariguzeldev@main/assets/" || echo "Assets cache purge completed"
 
       - name: Check purge status
-run: |
+        run: |
           curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzeldev/fonts@main"
           echo "✅ jsDelivr cache purge workflow completed successfully!"
           echo "Repository: buraksariguzeldev"
