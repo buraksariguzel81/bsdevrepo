@@ -22,11 +22,11 @@ jobs:
           echo "📝 Checking for changed files in the last commit..."
           CHANGED_FILES=$(git log -1 --name-only --pretty=format: | grep -E '^(font|meyveler|music)/' | sort -u)
           echo "Changed files: $CHANGED_FILES"
-          
+
           # Dosya listesi logs/changed_files.txt içine
           mkdir -p logs
           echo "$CHANGED_FILES" | tr ' ' '\n' > logs/changed_files.txt
-          
+
           # Klasör bazlı liste için tmp dosya
           mkdir -p /tmp/dirs_to_purge
           for FILE in $CHANGED_FILES; do
@@ -43,13 +43,22 @@ jobs:
         run: |
           echo "🧹 Purging jsDelivr cache for changed folders..."
           for DIR in ${{ steps.changes.outputs.changed_dirs }}; do
-            # URL encode boşluk ve özel karakterler için
             PURGE_URL=$(echo "$DIR" | sed 's/ /%20/g')
             echo "🚀 Purging cache for $DIR..."
             curl -s -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/$PURGE_URL/" \
             && echo "✅ Cache purge completed for $DIR" \
             || echo "⚠️ Failed to purge $DIR"
           done
+
+      - name: Commit changed files log
+        if: steps.changes.outputs.changed_dirs != ''
+        run: |
+          echo "💾 Committing changed_files.txt to repository..."
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add logs/changed_files.txt
+          git commit -m "Update changed_files.txt [skip ci]" || echo "No changes to commit"
+          git push
 
       - name: Check purge status
         run: |
