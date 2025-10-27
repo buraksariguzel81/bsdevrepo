@@ -1,4 +1,4 @@
-name: Purge jsDelivr Cache
+name: Deploy Folders and Purge jsDelivr Cache
 
 on:
   push:
@@ -6,29 +6,38 @@ on:
       - main
     paths:
       - 'font/**'
-      - 'assets/**'
+      - 'music/**'
 
 jobs:
-  purge:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Purge jsDelivr cache for fonts
+      - name: Prepare deployment directory
         run: |
-          echo "Purging jsDelivr cache for fonts..."
-          curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzeldev/buraksariguzeldev@main/font/" || echo "Font cache purge completed"
+          mkdir deployment
+          cp -r font deployment
+          cp -r music deployment
 
-      - name: Purge jsDelivr cache for assets
-        run: |
-          echo "Purging jsDelivr cache for assets..."
-          curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzeldev/buraksariguzeldev@main/assets/" || echo "Assets cache purge completed"
+      - name: Deploy font and music folders to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: deployment
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: Deploy font and music folders [ci skip]
 
-      - name: Check purge status
+  purge_cache:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr cache
         run: |
-          curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzeldev/fonts@main"
-          echo "✅ jsDelivr cache purge workflow completed successfully!"
-          echo "Repository: buraksariguzeldev"
-          echo "Branch: main"
-          echo "Purged paths: font/, assets/"
+          echo "Purging jsDelivr cache..."
+          curl "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@gh-pages/font/"
+          curl "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@gh-pages/music/"
+          echo "✅ jsDelivr cache purge commands sent."
