@@ -1,19 +1,7 @@
 {
-    "generated": "2025-10-27 21:59:03",
-    "total": 8,
+    "generated": "2025-10-27 22:49:56",
+    "total": 7,
     "music": [
-        {
-            "id": "KARA_SEVDA-Emir_Kozcuoğlu_Telefon_Zil_Sesi",
-            "name": "KARA SEVDA Emir Kozcuoğlu Telefon Zil Sesi",
-            "filename": "KARA SEVDA-Emir Kozcuoğlu Telefon Zil Sesi.mp3",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/buraksariguzeldev@main\/music\/KARA SEVDA-Emir Kozcuoğlu Telefon Zil Sesi.mp3",
-            "cdn_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/buraksariguzeldev@main\/music\/KARA SEVDA-Emir Kozcuoğlu Telefon Zil Sesi.mp3",
-            "css_class": "music-KARA_SEVDA-Emir_Kozcuoğlu_Telefon_Zil_Sesi",
-            "audio_class": "audio-KARA_SEVDA-Emir_Kozcuoğlu_Telefon_Zil_Sesi",
-            "type": "audio\/mp3",
-            "size": "2.8 MB",
-            "duration": "4:53"
-        },
         {
             "id": "M1_40",
             "name": "M1 40",
@@ -23,8 +11,8 @@
             "css_class": "music-M1_40",
             "audio_class": "audio-M1_40",
             "type": "audio\/mp3",
-            "size": "2.4 MB",
-            "duration": "2:37"
+            "size": "2.9 MB",
+            "duration": "4:40"
         },
         {
             "id": "M3_40",
@@ -35,8 +23,8 @@
             "css_class": "music-M3_40",
             "audio_class": "audio-M3_40",
             "type": "audio\/wav",
-            "size": "8.4 MB",
-            "duration": "2:56"
+            "size": "9.2 MB",
+            "duration": "2:30"
         },
         {
             "id": "Mustafa_Cihat-_Fizani___2019_Yeni_Tamamı",
@@ -47,8 +35,8 @@
             "css_class": "music-Mustafa_Cihat-_Fizani___2019_Yeni_Tamamı",
             "audio_class": "audio-Mustafa_Cihat-_Fizani___2019_Yeni_Tamamı",
             "type": "audio\/mp3",
-            "size": "8.6 MB",
-            "duration": "5:22"
+            "size": "9.2 MB",
+            "duration": "2:38"
         },
         {
             "id": "Over_the_Horizon",
@@ -59,8 +47,8 @@
             "css_class": "music-Over_the_Horizon",
             "audio_class": "audio-Over_the_Horizon",
             "type": "audio\/mp3",
-            "size": "5.3 MB",
-            "duration": "4:51"
+            "size": "6.2 MB",
+            "duration": "4:15"
         },
         {
             "id": "askinolayim",
@@ -71,8 +59,8 @@
             "css_class": "music-askinolayim",
             "audio_class": "audio-askinolayim",
             "type": "audio\/mp3",
-            "size": "3.4 MB",
-            "duration": "3:21"
+            "size": "2.4 MB",
+            "duration": "4:19"
         },
         {
             "id": "barkod-okuyucu_sesi",
@@ -83,8 +71,8 @@
             "css_class": "music-barkod-okuyucu_sesi",
             "audio_class": "audio-barkod-okuyucu_sesi",
             "type": "audio\/mp3",
-            "size": "3.6 MB",
-            "duration": "5:56"
+            "size": "5.9 MB",
+            "duration": "2:40"
         },
         {
             "id": "gazagetirenmuzik",
@@ -95,8 +83,8 @@
             "css_class": "music-gazagetirenmuzik",
             "audio_class": "audio-gazagetirenmuzik",
             "type": "audio\/mp3",
-            "size": "8.8 MB",
-            "duration": "2:16"
+            "size": "10.9 MB",
+            "duration": "6:38"
         }
     ]
 }
