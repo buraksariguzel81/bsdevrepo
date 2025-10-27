@@ -1,0 +1,13 @@
+name: Purge jsDelivr Cache
+on:
+  push:
+    branches:
+      - main  # veya master, senin ana dal hangisiyse
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr cache
+        run: |
+          curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzeldev/fonts@main"
