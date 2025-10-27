@@ -110,7 +110,7 @@
     height: 100px;
     display: inline-block;
     border-radius: 8px;
-    border: 2px solid #eee;
+    border: 2px solid red;
     margin: 5px;
 }
 
