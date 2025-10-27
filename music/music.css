@@ -1,4 +1,4 @@
-/* Otomatik müzik stilleri - 2025-10-27 22:49:56 */
+/* Otomatik müzik stilleri - 2025-10-27 23:56:33 */
 
 /* M1_40 */
 .music-M1_40 {
@@ -10,7 +10,7 @@
     height: 100px;
     display: inline-block;
     border-radius: 8px;
-    border: 2px solid #eee;
+    border: 2px solid purple;
     margin: 5px;
     cursor: pointer;
     position: relative;
@@ -20,6 +20,7 @@
     transform: scale(1.1);
     transition: transform 0.3s ease;
     border-color: #ff6b6b;
+    
 }
 
 .music-M1_40::after {

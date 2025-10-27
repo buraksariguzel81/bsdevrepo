@@ -1,5 +1,5 @@
 {
-    "generated": "2025-10-27 22:49:56",
+    "generated": "2025-10-27 23:56:33",
     "total": 7,
     "music": [
         {
@@ -11,8 +11,8 @@
             "css_class": "music-M1_40",
             "audio_class": "audio-M1_40",
             "type": "audio\/mp3",
-            "size": "2.9 MB",
-            "duration": "4:40"
+            "size": "7.5 MB",
+            "duration": "3:48"
         },
         {
             "id": "M3_40",
@@ -23,8 +23,8 @@
             "css_class": "music-M3_40",
             "audio_class": "audio-M3_40",
             "type": "audio\/wav",
-            "size": "9.2 MB",
-            "duration": "2:30"
+            "size": "9.6 MB",
+            "duration": "2:40"
         },
         {
             "id": "Mustafa_Cihat-_Fizani___2019_Yeni_Tamamı",
@@ -35,8 +35,8 @@
             "css_class": "music-Mustafa_Cihat-_Fizani___2019_Yeni_Tamamı",
             "audio_class": "audio-Mustafa_Cihat-_Fizani___2019_Yeni_Tamamı",
             "type": "audio\/mp3",
-            "size": "9.2 MB",
-            "duration": "2:38"
+            "size": "8.8 MB",
+            "duration": "5:12"
         },
         {
             "id": "Over_the_Horizon",
@@ -47,8 +47,8 @@
             "css_class": "music-Over_the_Horizon",
             "audio_class": "audio-Over_the_Horizon",
             "type": "audio\/mp3",
-            "size": "6.2 MB",
-            "duration": "4:15"
+            "size": "7.5 MB",
+            "duration": "3:11"
         },
         {
             "id": "askinolayim",
@@ -59,8 +59,8 @@
             "css_class": "music-askinolayim",
             "audio_class": "audio-askinolayim",
             "type": "audio\/mp3",
-            "size": "2.4 MB",
-            "duration": "4:19"
+            "size": "2.5 MB",
+            "duration": "5:56"
         },
         {
             "id": "barkod-okuyucu_sesi",
@@ -71,8 +71,8 @@
             "css_class": "music-barkod-okuyucu_sesi",
             "audio_class": "audio-barkod-okuyucu_sesi",
             "type": "audio\/mp3",
-            "size": "5.9 MB",
-            "duration": "2:40"
+            "size": "6.9 MB",
+            "duration": "4:58"
         },
         {
             "id": "gazagetirenmuzik",
@@ -83,8 +83,8 @@
             "css_class": "music-gazagetirenmuzik",
             "audio_class": "audio-gazagetirenmuzik",
             "type": "audio\/mp3",
-            "size": "10.9 MB",
-            "duration": "6:38"
+            "size": "5.3 MB",
+            "duration": "2:37"
         }
     ]
 }
