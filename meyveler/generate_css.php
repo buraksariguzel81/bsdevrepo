@@ -1,7 +1,7 @@
 <?php
 // Meyve CSS otomatik oluşturma scripti
-$meyve_dir = '.';
-$css_file = 'meyveler.css';
+$meyve_dir = dirname(__FILE__); // Şu anki dizin (meyveler klasörü)
+$css_file = $meyve_dir . '/meyveler.css';
 
 // Desteklenen resim formatları
 $supported_formats = ['png', 'jpg', 'jpeg', 'gif', 'webp'];

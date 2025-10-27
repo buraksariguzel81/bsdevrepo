@@ -1,4 +1,4 @@
-/* Otomatik meyve stilleri - 2025-10-27 14:43:37 */
+/* Otomatik meyve stilleri - 2025-10-27 15:19:04 */
 
 /* avokado */
 .meyve-avokado {
@@ -80,6 +80,22 @@
     transition: transform 0.3s ease;
 }
 
+/* vişne */
+.meyve-vişne {
+    background-image: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/vişne.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.meyve-vişne:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
 /* üzüm */
 .meyve-üzüm {
     background-image: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/üzüm.jpg');
@@ -96,18 +112,3 @@
     transition: transform 0.3s ease;
 }
 
-/* vişne */
-.meyve-vişne {
-    background-image: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/vişne.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-}
-
-.meyve-vişne:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
-}
