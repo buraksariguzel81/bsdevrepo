@@ -1,4 +1,24 @@
-/* Otomatik meyve stilleri - 2025-10-27 15:19:04 */
+/* Otomatik meyve stilleri - 2025-10-27 16:55:21 */
+
+/* Havuç */
+.meyve-Havuç {
+    background-image: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/Havuç.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #eee;
+    margin: 5px;
+}
+
+.meyve-Havuç:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    border-color: #ff6b6b;
+}
 
 /* avokado */
 .meyve-avokado {
@@ -9,11 +29,15 @@
     width: 100px;
     height: 100px;
     display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #eee;
+    margin: 5px;
 }
 
 .meyve-avokado:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
+    border-color: #ff6b6b;
 }
 
 /* incir */
@@ -25,11 +49,15 @@
     width: 100px;
     height: 100px;
     display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #eee;
+    margin: 5px;
 }
 
 .meyve-incir:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
+    border-color: #ff6b6b;
 }
 
 /* karpuz */
@@ -41,11 +69,15 @@
     width: 100px;
     height: 100px;
     display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #eee;
+    margin: 5px;
 }
 
 .meyve-karpuz:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
+    border-color: #ff6b6b;
 }
 
 /* kavun */
@@ -57,11 +89,15 @@
     width: 100px;
     height: 100px;
     display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #eee;
+    margin: 5px;
 }
 
 .meyve-kavun:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
+    border-color: #ff6b6b;
 }
 
 /* kivi */
@@ -73,11 +109,15 @@
     width: 100px;
     height: 100px;
     display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #eee;
+    margin: 5px;
 }
 
 .meyve-kivi:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
+    border-color: #ff6b6b;
 }
 
 /* vişne */
@@ -89,11 +129,15 @@
     width: 100px;
     height: 100px;
     display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #eee;
+    margin: 5px;
 }
 
 .meyve-vişne:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
+    border-color: #ff6b6b;
 }
 
 /* üzüm */
@@ -105,10 +149,14 @@
     width: 100px;
     height: 100px;
     display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #eee;
+    margin: 5px;
 }
 
 .meyve-üzüm:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
+    border-color: #ff6b6b;
 }
 

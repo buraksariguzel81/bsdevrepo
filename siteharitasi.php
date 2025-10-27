@@ -50,6 +50,14 @@ $menu_items = [
         'icon' => 'fas fa-icons',
         'label' => 'Icon'
 
+    ] ,
+
+      [
+
+     'link' => 'music/music.php',
+        'icon' => 'fas fa-icons',
+        'label' => 'Icon'
+
     ]
 ];
 ?>

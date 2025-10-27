@@ -20,6 +20,7 @@ jobs:
           echo "🧹 Purging jsDelivr cache for fonts..."
           curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/font/" || echo "Font cache purge completed"
           curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/" || echo "Meyveler cache purge completed"
+              curl -X GET "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/music/"
 
       - name: Purge jsDelivr cache for assets
         run: |
@@ -31,4 +32,4 @@ jobs:
           echo "✅ jsDelivr cache purge workflow completed successfully!"
           echo "Repository: buraksariguzel81/buraksariguzeldev"
           echo "Branch: main"
-          echo "Purged paths: font/, assets/, meyveler/"
+          echo "Purged paths: font/, assets/, meyveler/ , music/"
