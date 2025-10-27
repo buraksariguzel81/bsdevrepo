@@ -1,4 +1,4 @@
-/* Otomatik @font-face ve class tanımları - 2025-10-27 13:24:53 */
+/* Otomatik @font-face ve class tanımları - 2025-10-27 13:39:05 */
 
 @font-face {
     font-family: 'Alba';
@@ -37,6 +37,20 @@
 
 .BlackOpsOne {
     font-family: 'BlackOpsOne', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BristleRadiant';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/font/BristleRadiant/BristleRadiantDEMOVERSION.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/font/BristleRadiant/BristleRadiantDEMOVERSION.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.BristleRadiant {
+    font-family: 'BristleRadiant', sans-serif;
     font-weight: normal;
     font-style: normal;
 }
