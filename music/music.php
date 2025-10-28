@@ -6,7 +6,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/assets/src/include/navigasyon.php');
 $music_dir = __DIR__; // Şu anki dosyanın bulunduğu dizin
 $css_file = $music_dir . '/music.css';
 $json_file = $music_dir . '/muziklistesi.json';
-$cdn_base = 'https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/music/';
+$cdn_base = 'https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/music/';
 
 // Desteklenen müzik formatları
 $supported_formats = ['mp3', 'wav', 'ogg', 'm4a', 'aac'];
@@ -21,9 +21,9 @@ if (isset($_POST['update_files'])) {
     // CSS içeriği oluştur
     $css_content = "/* Otomatik müzik stilleri - " . date('Y-m-d H:i:s') . " */\n\n";
 
-foreach ($music_files as $file) {
-    $name = str_replace(' ', '_', pathinfo($file, PATHINFO_FILENAME));
-    $ext = pathinfo($file, PATHINFO_EXTENSION);
+    foreach ($music_files as $file) {
+        $name = str_replace(' ', '_', pathinfo($file, PATHINFO_FILENAME));
+        $ext = pathinfo($file, PATHINFO_EXTENSION);
 
         $css_content .= "/* $name */\n";
         $css_content .= ".music-$name {\n";
@@ -133,14 +133,16 @@ echo "<p><strong>Son Güncelleme:</strong> " . date('Y-m-d H:i:s') . "</p>";
 echo "<h2>🎵 Müzik Listesi</h2>";
 echo "<div style='display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px;'>";
 
-foreach ($music_files as $file) {
-    $name = str_replace(' ', '_', pathinfo($file, PATHINFO_FILENAME));
-    echo "<div style='border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center; background: #f9f9f9;'>";
-    echo "<h3>" . ucwords(str_replace(['_', '-'], ' ', $name)) . "</h3>";
-    echo "<div class='music-$name' style='margin: 10px auto;'></div>";
-    echo "<code style='background: #f0f0f0; padding: 5px; border-radius: 3px; font-family: monospace; font-size: 12px;'>CSS: .music-$name</code>";
-    echo "<br><small style='color: #666;'>$file</small>";
-    echo "</div>";
+if (isset($json_data['music'])) {
+    foreach ($json_data['music'] as $music) {
+        echo "<div style='border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center; background: #f9f9f9;'>";
+        echo "<h3>" . htmlspecialchars($music['name']) . "</h3>";
+        echo "<div class='" . htmlspecialchars($music['css_class']) . "' data-audio-id='" . htmlspecialchars($music['id']) . "' style='margin: 10px auto;'></div>";
+        echo "<audio id='audio-" . htmlspecialchars($music['id']) . "' src='" . htmlspecialchars($music['url']) . "' preload='none'></audio>";
+        echo "<code style='background: #f0f0f0; padding: 5px; border-radius: 3px; font-family: monospace; font-size: 12px;'>CSS: ." . htmlspecialchars($music['css_class']) . "</code>";
+        echo "<br><small style='color: #666;'>" . htmlspecialchars($music['filename']) . "</small>";
+        echo "</div>";
+    }
 }
 
 echo "</div>";
@@ -161,5 +163,50 @@ if (!empty($json_content)) {
     echo "<pre style='background: #f8f9fa; padding: 15px; border-radius: 8px; overflow-x: auto;'>" . htmlspecialchars($json_content) . "</pre>";
 }
 
-echo "</body></html>";
+echo <<<HTML
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        let currentlyPlaying = null;
+        let currentDiv = null;
+
+        document.querySelectorAll('div[data-audio-id]').forEach(div => {
+            div.addEventListener('click', function() {
+                const audioId = this.dataset.audioId;
+                const audio = document.getElementById('audio-' + audioId);
+
+                if (currentlyPlaying && currentlyPlaying !== audio) {
+                    currentlyPlaying.pause();
+                    if (currentDiv) {
+                        currentDiv.classList.remove('playing');
+                    }
+                }
+
+                if (audio.paused) {
+                    audio.play();
+                    currentlyPlaying = audio;
+                    currentDiv = this;
+                    this.classList.add('playing');
+                } else {
+                    audio.pause();
+                    currentlyPlaying = null;
+                    currentDiv = null;
+                    this.classList.remove('playing');
+                }
+
+                audio.onended = () => {
+                    this.classList.remove('playing');
+                    currentlyPlaying = null;
+                    currentDiv = null;
+                };
+            });
+        });
+    });
+</script>
+<style>
+    div[class^='music-'].playing::after {
+        content: '❚❚' !important;
+    }
+</style>
+</body></html>
+HTML;
 ?>
