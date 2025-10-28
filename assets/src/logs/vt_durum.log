@@ -440,3 +440,5 @@
 [01-09-2025 19:22:06] [/img/bsd_soft.png] İlk veritabanına bağlanıldı.
 [09-10-2025 22:06:08] [/game/hafiza_oyunu.php] İlk veritabanına bağlanıldı.
 [27-10-2025 19:24:11] [/music/music.php] İlk veritabanına bağlanıldı.
+[28-10-2025 03:52:12] [/font/font.php] İlk veritabanına bağlanırken hata oluştu: SQLSTATE[HY000] [2002] Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
+[28-10-2025 03:52:12] [/font/font.php] İkinci veritabanına bağlanırken hata oluştu: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for sql111.infinityfree.com failed: Bu, ana bilgisayar ad� ��z�mlemesi s�ras�nda genellikle ge�ici bir hatad�r ve yerel sunucunun yetkili bir sunucudan yan�t alamad���n� g�sterir. 

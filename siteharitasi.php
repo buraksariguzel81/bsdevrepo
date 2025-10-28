@@ -48,7 +48,7 @@ $menu_items = [
 
      'link' => 'meyveler/meyveler.php',
         'icon' => 'fas fa-icons',
-        'label' => 'Icon'
+        'label' => 'meyveler'
 
     ] ,
 

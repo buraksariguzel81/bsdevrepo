@@ -2,7 +2,7 @@
 // Meyve yönetim sistemi - CDN uyumlu
 $meyve_dir = __DIR__;
 $css_file = $meyve_dir . '/meyveler.css';
-$cdn_base = 'https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/meyveler/';
+$cdn_base = 'https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/meyveler/';
 
 $supported_formats = ['png', 'jpg', 'jpeg', 'gif', 'webp'];
 

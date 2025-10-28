@@ -34,10 +34,10 @@ if (isset($_POST['update_css'])) {
 
             $src_parts = [];
             foreach ($woff2_files as $woff2_file) {
-                $src_parts[] = "url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/font/$font_name/$woff2_file') format('woff2')";
+                $src_parts[] = "url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/$font_name/$woff2_file') format('woff2')";
             }
             foreach ($woff_files as $woff_file) {
-                $src_parts[] = "url('https://cdn.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@main/font/$font_name/$woff_file') format('woff')";
+                $src_parts[] = "url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/$font_name/$woff_file') format('woff')";
             }
 
             $css_content .= implode(",\n         ", $src_parts) . ";\n";
