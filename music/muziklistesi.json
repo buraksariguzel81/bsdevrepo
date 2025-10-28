@@ -1,5 +1,5 @@
 {
-    "generated": "2025-10-28 01:34:31",
+    "generated": "2025-10-28 15:03:30",
     "total": 6,
     "music": [
         {
@@ -11,8 +11,8 @@
             "css_class": "music-M1_40",
             "audio_class": "audio-M1_40",
             "type": "audio\/mp3",
-            "size": "9.6 MB",
-            "duration": "5:14"
+            "size": "8.8 MB",
+            "duration": "4:35"
         },
         {
             "id": "M3_40",
@@ -23,8 +23,8 @@
             "css_class": "music-M3_40",
             "audio_class": "audio-M3_40",
             "type": "audio\/wav",
-            "size": "1.6 MB",
-            "duration": "5:28"
+            "size": "5.9 MB",
+            "duration": "2:23"
         },
         {
             "id": "Mustafa_Cihat-_Fizani___2019_Yeni_Tamamı",
@@ -35,8 +35,8 @@
             "css_class": "music-Mustafa_Cihat-_Fizani___2019_Yeni_Tamamı",
             "audio_class": "audio-Mustafa_Cihat-_Fizani___2019_Yeni_Tamamı",
             "type": "audio\/mp3",
-            "size": "1.9 MB",
-            "duration": "3:45"
+            "size": "8.1 MB",
+            "duration": "6:36"
         },
         {
             "id": "Over_the_Horizon",
@@ -47,8 +47,8 @@
             "css_class": "music-Over_the_Horizon",
             "audio_class": "audio-Over_the_Horizon",
             "type": "audio\/mp3",
-            "size": "7.4 MB",
-            "duration": "6:49"
+            "size": "9.7 MB",
+            "duration": "6:57"
         },
         {
             "id": "askinolayim",
@@ -59,8 +59,8 @@
             "css_class": "music-askinolayim",
             "audio_class": "audio-askinolayim",
             "type": "audio\/mp3",
-            "size": "10.5 MB",
-            "duration": "4:56"
+            "size": "2.5 MB",
+            "duration": "5:40"
         },
         {
             "id": "barkod-okuyucu_sesi",
@@ -71,20 +71,8 @@
             "css_class": "music-barkod-okuyucu_sesi",
             "audio_class": "audio-barkod-okuyucu_sesi",
             "type": "audio\/mp3",
-            "size": "6.6 MB",
-            "duration": "4:37"
-        },
-        {
-            "id": "test",
-            "name": "Test",
-            "filename": "test.mp3",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/buraksariguzeldev@main\/music\/test.mp3",
-            "cdn_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/buraksariguzeldev@main\/music\/test.mp3",
-            "css_class": "music-test",
-            "audio_class": "audio-test",
-            "type": "audio\/mp3",
-            "size": "7.8 MB",
-            "duration": "6:37"
+            "size": "3.9 MB",
+            "duration": "2:17"
         }
     ]
 }

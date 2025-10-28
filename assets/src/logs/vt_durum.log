@@ -442,3 +442,5 @@
 [27-10-2025 19:24:11] [/music/music.php] İlk veritabanına bağlanıldı.
 [28-10-2025 03:52:12] [/font/font.php] İlk veritabanına bağlanırken hata oluştu: SQLSTATE[HY000] [2002] Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı
 [28-10-2025 03:52:12] [/font/font.php] İkinci veritabanına bağlanırken hata oluştu: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for sql111.infinityfree.com failed: Bu, ana bilgisayar ad� ��z�mlemesi s�ras�nda genellikle ge�ici bir hatad�r ve yerel sunucunun yetkili bir sunucudan yan�t alamad���n� g�sterir. 
+[28-10-2025 13:48:09] [/] İlk veritabanına bağlanırken hata oluştu: SQLSTATE[HY000] [2006] MySQL server has gone away
+[28-10-2025 14:57:59] [/meyveler/meyveler.php] İlk veritabanına bağlanıldı.

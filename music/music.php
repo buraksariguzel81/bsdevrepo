@@ -1,4 +1,7 @@
 <?php
+include($_SERVER['DOCUMENT_ROOT'] . '/assets/src/include/navigasyon.php');
+?>
+<?php
 // Müzik yönetim sistemi - CDN uyumlu
 $music_dir = __DIR__; // Şu anki dosyanın bulunduğu dizin
 $css_file = $music_dir . '/music.css';

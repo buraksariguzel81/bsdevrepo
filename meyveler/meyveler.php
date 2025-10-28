@@ -1,4 +1,8 @@
 <?php
+include($_SERVER['DOCUMENT_ROOT'] . '/assets/src/include/navigasyon.php');
+?>
+<?php
+
 // Meyve yönetim sistemi - CDN uyumlu
 $meyve_dir = __DIR__;
 $css_file = $meyve_dir . '/meyveler.css';
@@ -39,9 +43,9 @@ if (isset($_POST['update_css'])) {
     $success_message = "CSS dosyası başarıyla güncellendi!";
 }
 
-$css_content = file_get_contents($css_file);
-preg_match_all('/\.meyve-([A-Za-z_çğıöşü]+)\s*{/', $css_content, $matches);
-$meyveler = $matches[1];
+$meyveler = array_map(function($file) {
+    return pathinfo($file, PATHINFO_FILENAME);
+}, $meyve_files);
 
 ?>
 <!DOCTYPE html>
@@ -126,7 +130,7 @@ $meyveler = $matches[1];
 </head>
 
 <body>
-    <div class="container">
+    <div class="container mt-5">
         <h1>🍎 Meyve Önizleme</h1>
 
         <?php if (isset($success_message)) echo "<div class='success'>✅ $success_message</div>"; ?>
