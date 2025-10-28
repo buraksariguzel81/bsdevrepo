@@ -1,4 +1,4 @@
-name: Deploy Folders (Staticaly Version)
+name: Deploy Folders and Purge jsDelivr Cache
 
 on:
   push:
@@ -35,13 +35,13 @@ jobs:
           allow_empty_commit: true
           force_orphan: true
 
-  notify:
+  purge_cache:
     needs: deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Deployment completed
+      - name: Purge jsDelivr cache
         run: |
-          echo "✅ Deployment complete!"
-          echo "You can now access your files instantly via Staticaly:"
-          echo "  Fonts:  https://cdn.statically.io/gh/buraksariguzel81/buraksariguzeldev/gh-pages/font/"
-          echo "  Music:  https://cdn.statically.io/gh/buraksariguzel81/buraksariguzeldev/gh-pages/music/"
+          echo "Purging jsDelivr cache..."
+          curl "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@gh-pages/font/"
+          curl "https://purge.jsdelivr.net/gh/buraksariguzel81/buraksariguzeldev@gh-pages/music/"
+          echo "✅ jsDelivr cache purge commands sent."
