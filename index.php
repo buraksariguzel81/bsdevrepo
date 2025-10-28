@@ -26,7 +26,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/assets/src/include/navigasyon.php');
           <h5 class="card-title text-primary mb-3">
             <i class="fas fa-home me-2"></i> Hoş Geldiniz kardesim
           </h5>
-          <p class="text-muted mb-4">
+          <p class="text-muted mb-4 ">
             <strong>buraksariguzeldev.wuaze.com</strong> sitesine hoş geldiniz.
             Lütfen giriş yapın veya yeni bir hesap oluşturun.
           </p>
@@ -66,7 +66,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/assets/src/include/navigasyon.php');
         <?php else: ?>
           <!-- Giriş yapmış kullanıcılar için mesaj -->
           <h5 class="card-title text-success mb-3">
-            <i class="fas fa-user-check me-2"></i> Hoş geldiniz,
+            <i class="fas fa-user-check me-2 MagicVintageRegular"></i> Hoş geldiniz,
             <span style="color: <?= $kullanici_color ?>;">
               <?= htmlspecialchars($kullanici_adi); ?>
             </span>
