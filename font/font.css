@@ -1,4 +1,4 @@
-/* Otomatik @font-face ve class tanımları - 2025-10-28 20:08:17 */
+/* Otomatik @font-face ve class tanımları - 2025-10-28 20:18:39 */
 
 @font-face {
     font-family: 'Alba';
@@ -65,6 +65,20 @@
 
 .Brolink {
     font-family: 'Brolink', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GodOfWar';
+    src: url('http://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/GodOfWar/GodOfWar.woff2') format('woff2'),
+         url('http://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/GodOfWar/GodOfWar.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.GodOfWar {
+    font-family: 'GodOfWar', sans-serif;
     font-weight: normal;
     font-style: normal;
 }

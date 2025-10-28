@@ -8,7 +8,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Alba\/Alba.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Alba\/Alba.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "Argor_Biw_Scaqh",
@@ -18,7 +18,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Argor_Biw_Scaqh\/ArgorBiwScaqh.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Argor_Biw_Scaqh\/ArgorBiwScaqh.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "BlackOpsOne",
@@ -27,7 +27,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/BlackOpsOne\/BlackOpsOne-Regular.woff2"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/BlackOpsOne\/BlackOpsOne-Regular.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "BristleRadiant",
@@ -37,7 +37,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/BristleRadiant\/BristleRadiantDEMOVERSION.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/BristleRadiant\/BristleRadiantDEMOVERSION.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "Brolink",
@@ -47,7 +47,17 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Brolink\/BrolinkDEMO.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Brolink\/BrolinkDEMO.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
+        },
+        {
+            "name": "GodOfWar",
+            "class": ".GodOfWar",
+            "urls": [
+                "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/GodOfWar\/GodOfWar.woff2",
+                "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/GodOfWar\/GodOfWar.woff"
+            ],
+            "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/GodOfWar\/GodOfWar.woff2",
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "Langdon",
@@ -57,7 +67,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Langdon\/Langdon.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Langdon\/Langdon.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "LeviBrush",
@@ -67,7 +77,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/LeviBrush\/LeviBrush.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/LeviBrush\/LeviBrush.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "MagicVintageRegular",
@@ -77,7 +87,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/MagicVintageRegular\/MagicVintageRegular.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/MagicVintageRegular\/MagicVintageRegular.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "Moonstar",
@@ -87,7 +97,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Moonstar\/Moonstar.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Moonstar\/Moonstar.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "Nabla",
@@ -97,7 +107,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Nabla\/NablaRegular.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Nabla\/NablaRegular.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "PottaOne",
@@ -106,7 +116,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/PottaOne\/PottaOneRegular.woff2"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/PottaOne\/PottaOneRegular.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "Righteous",
@@ -116,7 +126,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Righteous\/RighteousRegular.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Righteous\/RighteousRegular.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "Skranji",
@@ -126,7 +136,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Skranji\/Skranji.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Skranji\/Skranji.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "SquimFont",
@@ -136,7 +146,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/SquimFont\/SquimFont.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/SquimFont\/SquimFont.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "Turkish_Participants",
@@ -146,7 +156,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Turkish_Participants\/TurkishParticipants.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Turkish_Participants\/TurkishParticipants.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "UnicornPop",
@@ -156,7 +166,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/UnicornPop\/UnicornPop.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/UnicornPop\/UnicornPop.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "VampireWars",
@@ -166,7 +176,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/VampireWars\/VampireWars.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/VampireWars\/VampireWars.woff2",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         },
         {
             "name": "ethnocentric",
@@ -175,7 +185,7 @@
                 "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/ethnocentric\/ethnocentric-rg.woff"
             ],
             "primary_url": "http:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/ethnocentric\/ethnocentric-rg.woff",
-            "updated": "2025-10-28 20:08:17"
+            "updated": "2025-10-28 20:18:39"
         }
     ]
 }
