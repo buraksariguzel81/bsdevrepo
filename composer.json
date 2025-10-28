@@ -1,0 +1,7 @@
+{
+  "name": "buraksariguzeldev/project",
+  "description": "Burak Sarıgüzel PHP setup",
+  "require": {
+    "php": "^8.2"
+  }
+}
