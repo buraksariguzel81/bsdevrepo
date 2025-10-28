@@ -75,4 +75,10 @@ include($_SERVER['DOCUMENT_ROOT'] . '/assets/src/include/navigasyon.php');
             Sisteme başarıyla giriş yaptınız.<br>
             Artık özel içeriklere erişebilirsiniz.
           </p>
+          <div class="mt-3">
+            <h6>Yönetim Linkleri:</h6>
+            <a href="/page_cdn_scanner.php" class="btn btn-secondary btn-sm me-2"><i class="fas fa-search"></i> CDN Tarayıcı</a>
+            <a href="/font/font.php" class="btn btn-info btn-sm me-2"><i class="fas fa-font"></i> Font Yönetimi</a>
+            <a href="/font/font_upload.php" class="btn btn-warning btn-sm"><i class="fas fa-upload"></i> Font Yükleme</a>
+          </div>
         <?php endif; ?>

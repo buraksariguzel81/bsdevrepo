@@ -1,4 +1,4 @@
-/* Otomatik @font-face ve class tanımları - 2025-10-28 19:18:33 */
+/* Otomatik @font-face ve class tanımları - 2025-10-28 20:08:17 */
 
 @font-face {
     font-family: 'Alba';
@@ -218,6 +218,20 @@
 
 .UnicornPop {
     font-family: 'UnicornPop', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VampireWars';
+    src: url('http://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/VampireWars/VampireWars.woff2') format('woff2'),
+         url('http://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/VampireWars/VampireWars.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.VampireWars {
+    font-family: 'VampireWars', sans-serif;
     font-weight: normal;
     font-style: normal;
 }
