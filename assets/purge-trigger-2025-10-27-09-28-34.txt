@@ -1,7 +1,0 @@
-Trigger file to activate .github/workflows/purge.yml
-
-Repository: buraksariguzel81/buraksariguzeldev
-Branch: main
-Triggered by: buraksariguzel81
-Timestamp (UTC): 2025-10-27 09:28:34
-Notes: This file was added to the assets/ path to trigger the Purge jsDelivr Cache workflow.

@@ -38,12 +38,19 @@ try {
     }
 
     if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["kayit"])) {
-        $kullanici = trim($_POST["kullanici"]);
-        $sifre = trim($_POST["sifre"]);
-        $eposta = trim($_POST["eposta"]);
-        $cinsiyet = trim($_POST["cinsiyet"]);
+        // Kullanıcı sayı limiti kontrolü
+        $userCountStmt = $vt->query("SELECT COUNT(*) as count FROM kullanicilar");
+        $userCount = $userCountStmt->fetch(PDO::FETCH_ASSOC)['count'];
 
-        if (!preg_match("/^[a-z0-9_]{1,50}$/", $kullanici)) {
+        if ($userCount >= 3) {
+            $hata = "Üzgünüz, sistem maksimum 3 kullanıcıya izin veriyor. Yeni kayıt yapılamaz.";
+        } else {
+            $kullanici = trim($_POST["kullanici"]);
+            $sifre = trim($_POST["sifre"]);
+            $eposta = trim($_POST["eposta"]);
+            $cinsiyet = trim($_POST["cinsiyet"]);
+
+            if (!preg_match("/^[a-z0-9_]{1,50}$/", $kullanici)) {
             $hata = "Geçerli bir kullanıcı adı girin (en fazla 50 karakter, sadece küçük harf, rakam ve alt çizgi).";
         } elseif (!filter_var($eposta, FILTER_VALIDATE_EMAIL)) {
             $hata = "Geçerli bir e-posta adresi girin.";
@@ -117,6 +124,7 @@ try {
             }
         }
     }
+}
 } catch (Exception $e) {
     die("Veritabanına bağlanılamadı: " . htmlspecialchars($e->getMessage()));
 }
@@ -150,25 +158,25 @@ try {
             <form method="post" id="kayitForm">
                 <div>
                     <label for="kullanici_reg" class="form-label"><i class="fas fa-user"></i> Kullanıcı Adı</label>
-                    <input type="text" class="form-control" id="kullanici_reg" name="kullanici" required maxlength="50" disabled>
+                    <input type="text" class="form-control" id="kullanici_reg" name="kullanici" required maxlength="50">
                     <div id="kullanici_durumu" class="form-text"></div>
                 </div>
                 <div class="mb-3">
                     <label for="sifre_reg" class="form-label"><i class="fas fa-lock"></i> Şifre</label>
                     <div class="input-group">
-                        <input type="password" class="form-control" id="sifre_reg" name="sifre" required minlength="6" disabled>
+                        <input type="password" class="form-control" id="sifre_reg" name="sifre" required minlength="6">
 
                     </div>
                     <div id="sifre_durumu" class="form-text"></div>
                 </div>
                 <div class="mb-3">
                     <label for="eposta" class="form-label"><i class="fas fa-envelope"></i> E-posta</label>
-                    <input type="email" class="form-control" id="eposta" name="eposta" required disabled>
+                    <input type="email" class="form-control" id="eposta" name="eposta" required>
                     <div id="eposta_durumu" class="form-text"></div>
                 </div>
                 <div class="mb-3">
                     <label for="cinsiyet" class="bsd-navlink1"><i class="fas fa-venus-mars"></i> Cinsiyet</label>
-                    <select class="form-select" id="cinsiyet" name="cinsiyet" required disabled>
+                    <select class="form-select" id="cinsiyet" name="cinsiyet" required>
                         <option value="" selected disabled>Seçiniz</option>
                         <option value="erkek">Erkek</option>
                         <option value="kadin">Kadın</option>
@@ -176,8 +184,8 @@ try {
                     </select>
                 </div>
 
-                <button type="submit" class="btn btn-secondary" name="kayit" disabled>
-                    <i class="fas fa-ban"></i> Kayıt Yasak
+                <button type="submit" class="btn btn-success" name="kayit">
+                    <i class="fas fa-user-plus"></i> Kayıt Ol
                 </button>
             </form>
             <hr>

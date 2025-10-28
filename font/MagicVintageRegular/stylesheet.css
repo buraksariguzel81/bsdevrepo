@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'MagicVintageRegular';
+    src: local('Magic Vintage'), local('MagicVintageRegular'),
+        url('MagicVintageRegular.woff2') format('woff2'),
+        url('MagicVintageRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

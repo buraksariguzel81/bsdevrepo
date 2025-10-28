@@ -107,7 +107,7 @@ echo "<div class='font-grid'>";
 foreach ($fonts as $font) {
     echo "<div class='font-card'>";
     echo "<div class='font-name'>$font</div>";
-    echo "<div class='font-preview' style='font-family: \"$font\", sans-serif;'>The quick brown fox jumps over the lazy dog</div>";
+    echo "<div class='font-preview' style='font-family: \"$font\", sans-serif;'>bu yazi fontu boyle</div>";
     echo "<div class='font-code'>.$font</div>";
     echo "</div>";
 }

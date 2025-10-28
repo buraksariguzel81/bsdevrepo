@@ -1,4 +1,4 @@
-/* Otomatik @font-face ve class tanımları - 2025-10-28 03:35:19 */
+/* Otomatik @font-face ve class tanımları - 2025-10-28 18:55:02 */
 
 @font-face {
     font-family: 'Alba';
@@ -93,6 +93,20 @@
 
 .LeviBrush {
     font-family: 'LeviBrush', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MagicVintageRegular';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/MagicVintageRegular/MagicVintageRegular.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/MagicVintageRegular/MagicVintageRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.MagicVintageRegular {
+    font-family: 'MagicVintageRegular', sans-serif;
     font-weight: normal;
     font-style: normal;
 }

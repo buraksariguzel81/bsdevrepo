@@ -444,3 +444,5 @@
 [28-10-2025 03:52:12] [/font/font.php] Ä°kinci veritabanÄ±na baÄŸlanÄ±rken hata oluÅŸtu: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for sql111.infinityfree.com failed: Bu, ana bilgisayar adı çözümlemesi sırasında genellikle geçici bir hatadır ve yerel sunucunun yetkili bir sunucudan yanıt alamadığını gösterir. 
 [28-10-2025 13:48:09] [/] Ä°lk veritabanÄ±na baÄŸlanÄ±rken hata oluÅŸtu: SQLSTATE[HY000] [2006] MySQL server has gone away
 [28-10-2025 14:57:59] [/meyveler/meyveler.php] Ä°lk veritabanÄ±na baÄŸlanÄ±ldÄ±.
+[28-10-2025 17:08:53] [/create_table.php] Ä°lk veritabanÄ±na baÄŸlanÄ±ldÄ±.
+[28-10-2025 17:10:33] [/add_special_password.php] Ä°lk veritabanÄ±na baÄŸlanÄ±ldÄ±.

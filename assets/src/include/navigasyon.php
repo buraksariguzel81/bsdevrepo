@@ -1,14 +1,7 @@
 <?php
 include($_SERVER['DOCUMENT_ROOT'] .'/assets/src/php/kullanici_adi.php');
 include 'siteurl.php';
-include_once($_SERVER['DOCUMENT_ROOT'] . '/assets/src/include/cssfont.php');
 include 'header.php';
-
-include 'fontheader.php';
-include 'tarih_saat.php';
-
-
-include($_SERVER['DOCUMENT_ROOT'] . '/assets/src/config/config.php');
 
 $menu_items = [];
 $current_url = basename($_SERVER['REQUEST_URI']);
@@ -115,11 +108,7 @@ if ($kullanici_adi) {
   </button>
   <ul class="dropdown-menu">
 
-  <li>
-    <a class="dropdown-item text-danger" href="<?= site_url('../../../siteharitasi.php') ?>">
-      <i class="fas fa-sitemap"></i> Site Haritası
-    </a>
-  </li>
+ 
 
   <li>
     <a class="dropdown-item text-danger" href="<?= site_url('auth/profil_islemleri/profile.php') ?>">
@@ -127,27 +116,7 @@ if ($kullanici_adi) {
     </a>
   </li>
 
-  <?php if (isset($cinsiyet) && $cinsiyet === 'erkek'): ?>
-    <li>
-      <a class="dropdown-item text-danger" href="<?= site_url('../../../panel/erkekpanel/erkekpanel.php') ?>">
-        <i class="fas fa-male"></i> Erkek Panel
-      </a>
-    </li>
-  <?php elseif (isset($cinsiyet) && $cinsiyet === 'kadin'): ?>
-    <li>
-      <a class="dropdown-item text-danger" href="<?= site_url('../../../panel/kadinpanel/kadinpanel.php') ?>">
-        <i class="fas fa-female"></i> Kadın İçerikler
-      </a>
-    </li>
-  <?php endif; ?>
-
-  <?php if ($kullanici_adi === "buraksariguzeldev"): ?>
-    <li>
-      <a class="dropdown-item text-danger" href="<?= site_url('../../../mail/eposta_gonderme/eposta_gonderme_ms.php') ?>">
-        <i class="fas fa-paper-plane"></i> E-posta Gönder
-      </a>
-    </li>
-  <?php endif; ?>
+ 
 
   <li>
     <a class="dropdown-item text-danger" href="<?= site_url('/auth/cikis_islemleri/logout.php') ?>">
