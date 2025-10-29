@@ -34,10 +34,10 @@ if (isset($_POST['update_css'])) {
 
             $src_parts = [];
             foreach ($woff2_files as $woff2_file) {
-                $src_parts[] = "url('http://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/$font_name/$woff2_file') format('woff2')";
+                $src_parts[] = "url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/$font_name/$woff2_file') format('woff2')";
             }
             foreach ($woff_files as $woff_file) {
-                $src_parts[] = "url('http://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/$font_name/$woff_file') format('woff')";
+                $src_parts[] = "url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/$font_name/$woff_file') format('woff')";
             }
 
             $css_content .= implode(",\n         ", $src_parts) . ";\n";
@@ -73,10 +73,10 @@ if (isset($_POST['update_css'])) {
 
             $url_parts = [];
             foreach ($woff2_files as $woff2_file) {
-                $url_parts[] = "http://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/$font_name/$woff2_file";
+                $url_parts[] = "https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/$font_name/$woff2_file";
             }
             foreach ($woff_files as $woff_file) {
-                $url_parts[] = "http://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/$font_name/$woff_file";
+                $url_parts[] = "https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/$font_name/$woff_file";
             }
 
             $json_fonts[] = [
@@ -171,7 +171,7 @@ echo "<h2>🎨 Font Preview</h2>";
 echo "<div class='font-grid'>";
 
 foreach ($fonts as $font) {
-    $url = "http://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/$font/$font.woff2";
+    $url = "https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/$font/$font.woff2";
     echo "<div class='font-card'>";
     echo "<div class='font-name'>$font</div>";
     echo "<div class='font-preview' style='font-family: \"$font\", sans-serif;'>bu yazi fontu boyle</div>";

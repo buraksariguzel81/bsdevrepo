@@ -2,3 +2,5 @@
 Stack trace:
 #0 {main}
   thrown in /storage/emulated/0/bsdev_yedek/auth/giris_islemleri/giris.php on line 30
+[29-Oct-2025 09:27:45 Europe/Berlin] PHP Warning:  include(C:/xampp/htdocs/buraksariguzeldev/assets/src/include/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\buraksariguzeldev\auth\giris_islemleri\giris.php on line 194
+[29-Oct-2025 09:27:45 Europe/Berlin] PHP Warning:  include(): Failed opening 'C:/xampp/htdocs/buraksariguzeldev/assets/src/include/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\buraksariguzeldev\auth\giris_islemleri\giris.php on line 194
