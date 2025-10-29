@@ -9,6 +9,7 @@ on:
 jobs:
   ftp_upload:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -20,6 +21,6 @@ jobs:
           username: if0_36792962
           password: EDgDOydXu6W5VTm
           protocol: ftp
-          local-dir: font  # repository içindeki klasör
-          server-dir: /   # FTP’de göndermek istediğin dizin
+          local-dir: font/  # yerel klasör (repo içindeki)
+          server-dir: /buraksariguzeldev.wuaze.com/htdocs/font/  # 🔥 FTP hedef klasör
           dry-run: false
