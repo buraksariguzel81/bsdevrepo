@@ -1,0 +1,401 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1761727428377,
+    "data": [
+        {
+            "type": "folder",
+            "name": "Alba"
+        },
+        {
+            "type": "folder",
+            "name": "Argor_Biw_Scaqh"
+        },
+        {
+            "type": "folder",
+            "name": "BlackOpsOne"
+        },
+        {
+            "type": "folder",
+            "name": "BristleRadiant"
+        },
+        {
+            "type": "folder",
+            "name": "Brolink"
+        },
+        {
+            "type": "folder",
+            "name": "GodOfWar"
+        },
+        {
+            "type": "folder",
+            "name": "Langdon"
+        },
+        {
+            "type": "folder",
+            "name": "LeviBrush"
+        },
+        {
+            "type": "folder",
+            "name": "MagicVintageRegular"
+        },
+        {
+            "type": "folder",
+            "name": "Moonstar"
+        },
+        {
+            "type": "folder",
+            "name": "Nabla"
+        },
+        {
+            "type": "folder",
+            "name": "PottaOne"
+        },
+        {
+            "type": "file",
+            "name": "README.md",
+            "size": 1517,
+            "hash": "ba305fa5a60d900390adae3f30743473a93f3a4c73bc5180b6d24fb6e5fbba71"
+        },
+        {
+            "type": "folder",
+            "name": "Righteous"
+        },
+        {
+            "type": "folder",
+            "name": "Skranji"
+        },
+        {
+            "type": "folder",
+            "name": "SquimFont"
+        },
+        {
+            "type": "folder",
+            "name": "Turkish_Participants"
+        },
+        {
+            "type": "folder",
+            "name": "UnicornPop"
+        },
+        {
+            "type": "folder",
+            "name": "VampireWars"
+        },
+        {
+            "type": "folder",
+            "name": "ethnocentric"
+        },
+        {
+            "type": "file",
+            "name": "font.css",
+            "size": 8430,
+            "hash": "b0104fceee3a5fc4f4d5b13373142f650308159f1e5ed84ccfb213fb99c006cd"
+        },
+        {
+            "type": "file",
+            "name": "font.php",
+            "size": 8528,
+            "hash": "aca2dc190f89c09a22a9b03dca6a761ba09533188b8ce2230a2e6646bae436f9"
+        },
+        {
+            "type": "file",
+            "name": "font_list.json",
+            "size": 10098,
+            "hash": "300a05d7171a83a1a322d3266bda5059089997f5b42954f7fdbb4d392a494ce3"
+        },
+        {
+            "type": "file",
+            "name": "font_upload.php",
+            "size": 6946,
+            "hash": "59c89ccaf3513aff19191114126ca90e8318311fd29b81681db4772fac330e52"
+        },
+        {
+            "type": "file",
+            "name": "generate_css.php",
+            "size": 2229,
+            "hash": "671ddb9a1675da2895d48e465cab3901b1016786c1e603ed5335356c9f643efa"
+        },
+        {
+            "type": "file",
+            "name": "Alba/Alba.woff",
+            "size": 21856,
+            "hash": "b9c2ac57addcec30d73673d2b81f0b6aafb079f17d14dccad1147b22e1a8f465"
+        },
+        {
+            "type": "file",
+            "name": "Alba/Alba.woff2",
+            "size": 15468,
+            "hash": "7c217fd2815555c031a37d2063dfe8fdbc867bffbb6803769e545576e07d536a"
+        },
+        {
+            "type": "file",
+            "name": "Alba/demo.html",
+            "size": 2463,
+            "hash": "2b2f2a7844546429702e5aa4099cf47e4cea1ce1ca890d8b7d560def24d3d62a"
+        },
+        {
+            "type": "file",
+            "name": "Alba/stylesheet.css",
+            "size": 199,
+            "hash": "fb830add16d0e352b680f32d5ad20625922b0bb81c659f620b9fffdc4255cde7"
+        },
+        {
+            "type": "file",
+            "name": "Argor_Biw_Scaqh/ArgorBiwScaqh.woff",
+            "size": 60136,
+            "hash": "7af66253847b79c9e6acd42ddd2092fe484e5fcfd50cd42f39909af4ece6e53c"
+        },
+        {
+            "type": "file",
+            "name": "Argor_Biw_Scaqh/ArgorBiwScaqh.woff2",
+            "size": 34532,
+            "hash": "27a6c97223579448ab7dc531b7dec26000d57a76e1de2a8a8b67c3e01d043856"
+        },
+        {
+            "type": "file",
+            "name": "Argor_Biw_Scaqh/demo.html",
+            "size": 2507,
+            "hash": "80e1b958b271ca48e1bdd788f99cbefa47c8d4772d417981950aa5a96ded1098"
+        },
+        {
+            "type": "file",
+            "name": "Argor_Biw_Scaqh/stylesheet.css",
+            "size": 225,
+            "hash": "4209db754f7ee61860916ac3509ec22c6dedb6da437a8c7a481bd87ed456e9ac"
+        },
+        {
+            "type": "file",
+            "name": "BlackOpsOne/BlackOpsOne-Regular.woff2",
+            "size": 23004,
+            "hash": "fb1299a4350b330bb25b2550c9464e23ad830fcc8e011b96c68b60438ba6573b"
+        },
+        {
+            "type": "file",
+            "name": "BristleRadiant/BristleRadiantDEMOVERSION.woff",
+            "size": 48620,
+            "hash": "c6ad60b4e2a65597c5ce82d50b957d0eb2d06b8b72e1e7046ccfc85421a35484"
+        },
+        {
+            "type": "file",
+            "name": "BristleRadiant/BristleRadiantDEMOVERSION.woff2",
+            "size": 34044,
+            "hash": "994839e8e9ff97716651e02922b515b54ea35b3cf77e9bbafbbe6f924601c7ba"
+        },
+        {
+            "type": "file",
+            "name": "Brolink/BrolinkDEMO.woff",
+            "size": 6424,
+            "hash": "30ce45f1ec6ced63ffd15dbe87f15aaa1c623bb0cf97ab023754a0c77ef5194d"
+        },
+        {
+            "type": "file",
+            "name": "Brolink/BrolinkDEMO.woff2",
+            "size": 4616,
+            "hash": "e75b10ce45b342195be0862e45c2cc023921a194fb57786cfcfdad918f8617bd"
+        },
+        {
+            "type": "file",
+            "name": "GodOfWar/GodOfWar.woff",
+            "size": 13104,
+            "hash": "8fbe683471db76e79638fbc80f3a4d31ea641adcddc0147c861b75f0c0f2266a"
+        },
+        {
+            "type": "file",
+            "name": "GodOfWar/GodOfWar.woff2",
+            "size": 10576,
+            "hash": "9577ccf0a0fb38a47caaefb9ce97e9d3a0c12a6f829fd853746eeb9aef3cf0fc"
+        },
+        {
+            "type": "file",
+            "name": "GodOfWar/demo.html",
+            "size": 6343,
+            "hash": "76420eb2953ca2dbb249cea730f1245627eec687601ff4f7de00a08471e51353"
+        },
+        {
+            "type": "file",
+            "name": "GodOfWar/stylesheet.css",
+            "size": 211,
+            "hash": "c798cfacad3b727d70cb3dc721a7d5b303b224bc5873bdc91a73b26e40e68dc4"
+        },
+        {
+            "type": "file",
+            "name": "Langdon/Langdon.woff",
+            "size": 10952,
+            "hash": "9d667d1eefd383ba7f4907d0550d154af8ce0f0a55ac7e6306573036e9485140"
+        },
+        {
+            "type": "file",
+            "name": "Langdon/Langdon.woff2",
+            "size": 8576,
+            "hash": "d877040fb85fd0e66dfa883f2177d1789322a929317b379655c1284f30f77935"
+        },
+        {
+            "type": "file",
+            "name": "LeviBrush/LeviBrush.woff",
+            "size": 150140,
+            "hash": "210ec93e9c1381fa3887d158fbebc51bb92e76263b2791f25b7f219c64e74905"
+        },
+        {
+            "type": "file",
+            "name": "LeviBrush/LeviBrush.woff2",
+            "size": 106160,
+            "hash": "7b6ad56a218fa2e05f8e9a888e481ffb579ea228e91375b30499bf338d6427e4"
+        },
+        {
+            "type": "file",
+            "name": "LeviBrush/demo.html",
+            "size": 2488,
+            "hash": "0876752a642b5d4b8fbb7d3ae8505157ba75b268dc800d5a95bfb2c4916760b7"
+        },
+        {
+            "type": "file",
+            "name": "LeviBrush/stylesheet.css",
+            "size": 214,
+            "hash": "eedf028401ff2e04528ccf640ed03e981acf4e0a04e08da6d48d2568d59ab930"
+        },
+        {
+            "type": "file",
+            "name": "MagicVintageRegular/MagicVintageRegular.woff2",
+            "size": 33200,
+            "hash": "230a8b25d2455ad4d333ddbab72b5e47ecffd9590d3ff28c50649a21d90151c3"
+        },
+        {
+            "type": "file",
+            "name": "MagicVintageRegular/MagicVintageRegular.woff",
+            "size": 44140,
+            "hash": "a6c4f259a6657c454bc7ca690fe21e5b8ae8d956cf008b9b6851c98c7c91c9b7"
+        },
+        {
+            "type": "file",
+            "name": "MagicVintageRegular/demo.html",
+            "size": 6392,
+            "hash": "c95a7f2d2a13e7e7d71b32d401330461b7476b6cb201dc0cfe5096b724dddbc9"
+        },
+        {
+            "type": "file",
+            "name": "MagicVintageRegular/stylesheet.css",
+            "size": 306,
+            "hash": "7e2f7e89bc53fcc727075da7a038c6cf545e5fb3b85f564d6a6bedad3378c20e"
+        },
+        {
+            "type": "file",
+            "name": "Moonstar/Moonstar.woff",
+            "size": 40512,
+            "hash": "96856f2d65c04701c35fafddd5b705c7a327fdcbc79494a52a2b10cd6b92e8eb"
+        },
+        {
+            "type": "file",
+            "name": "Moonstar/Moonstar.woff2",
+            "size": 32128,
+            "hash": "adc5613b78ce4c4f64850a7179316f5e4f49513c59370481f4ba568fd09af3db"
+        },
+        {
+            "type": "file",
+            "name": "Nabla/NablaRegular.woff",
+            "size": 92136,
+            "hash": "83a355cdcd2a96a751d9bbf63dd855dd6f6f4870d31eff08cdf3979340f53342"
+        },
+        {
+            "type": "file",
+            "name": "Nabla/NablaRegular.woff2",
+            "size": 46780,
+            "hash": "9316181346a190497cde85277ab64900bcd1c5b2762226355abcb1008329ef44"
+        },
+        {
+            "type": "file",
+            "name": "PottaOne/PottaOneRegular.woff2",
+            "size": 2044788,
+            "hash": "45cc9f5df673289af30fe469f0404b1e6f0b8c47a49fccb01feebf7c3a13440c"
+        },
+        {
+            "type": "file",
+            "name": "Righteous/RighteousRegular.woff",
+            "size": 20768,
+            "hash": "2afb0511a6fcf80b401565e0309daff8ac9fb77e7ae17a81226dea52eb59ada3"
+        },
+        {
+            "type": "file",
+            "name": "Righteous/RighteousRegular.woff2",
+            "size": 15704,
+            "hash": "4f29fb2d1e22f69a6e48f6a1f85c85e011a217d8eab7ba6cd4a4be32ce63be4d"
+        },
+        {
+            "type": "file",
+            "name": "Skranji/Skranji.woff",
+            "size": 97956,
+            "hash": "96cdc84f9e08e89d5ff2cd424127cb5a6339c48f42d6ae9959e523b7f88c2e5e"
+        },
+        {
+            "type": "file",
+            "name": "Skranji/Skranji.woff2",
+            "size": 73516,
+            "hash": "5d51137c47cbb6d64a2de5695cda7187cfd0e1f0cacfe9c2a1fe7df24e85361c"
+        },
+        {
+            "type": "file",
+            "name": "SquimFont/SquimFont.woff",
+            "size": 10076,
+            "hash": "bbe2b7f0109a96dcbb9302fd0f79a5d1457e990674e6ea7146165db30f51e93b"
+        },
+        {
+            "type": "file",
+            "name": "SquimFont/SquimFont.woff2",
+            "size": 6416,
+            "hash": "1c78030d901e9c483fc753fc380569f33a049891c35f9b9e5d9c72719da1fd2d"
+        },
+        {
+            "type": "file",
+            "name": "Turkish_Participants/TurkishParticipants.woff",
+            "size": 17604,
+            "hash": "c877c4099a678edbbf4456b2e4337c31d03914e0e3f687d3a5d135c5c3ad8a8a"
+        },
+        {
+            "type": "file",
+            "name": "Turkish_Participants/TurkishParticipants.woff2",
+            "size": 13396,
+            "hash": "35175946c2178fd6983034c9ab8c8bd0fdf16cfd03dd4121a7995f38a99b5297"
+        },
+        {
+            "type": "file",
+            "name": "UnicornPop/UnicornPop.woff",
+            "size": 24428,
+            "hash": "0880541b814a00133303f0a5b9c6a9a54e7bbfae112f29729504e764fbb3778c"
+        },
+        {
+            "type": "file",
+            "name": "UnicornPop/UnicornPop.woff2",
+            "size": 19224,
+            "hash": "c0b2b3499aff8391c0260e0e8fbe8ebba929009d56f6727a75fd975ddd668797"
+        },
+        {
+            "type": "file",
+            "name": "VampireWars/VampireWars.woff",
+            "size": 16636,
+            "hash": "d7349070c99f10e048f45403dd39d674341a19665b0aff353b0f93eb15b922e3"
+        },
+        {
+            "type": "file",
+            "name": "VampireWars/VampireWars.woff2",
+            "size": 12808,
+            "hash": "58a09b026c744f043ae70e1238496d6efaa2773b1d353ba386a4fbbe316d0aad"
+        },
+        {
+            "type": "file",
+            "name": "VampireWars/demo.html",
+            "size": 6362,
+            "hash": "5f4ec6669a6ebdd2f656f9b0ef66bbd91f165625586264db053f54a4226959ec"
+        },
+        {
+            "type": "file",
+            "name": "VampireWars/stylesheet.css",
+            "size": 221,
+            "hash": "16aeb7672afc614ef0e18cec0bf57c469ecaf99fa28054f719f3552a712384bd"
+        },
+        {
+            "type": "file",
+            "name": "ethnocentric/ethnocentric-rg.woff",
+            "size": 16464,
+            "hash": "624f776920c8f76e5154f39ef172063be681171e3b7abfb67b44b960a293fcae"
+        }
+    ]
+}
