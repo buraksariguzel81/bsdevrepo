@@ -1,0 +1,14 @@
+{
+    "music": [
+        {
+            "name": "barkod-okuyucu_sesi",
+            "filename": "barkod-okuyucu_sesi.mp3",
+            "extension": "mp3",
+            "size": 0,
+            "size_mb": 0,
+            "url": "https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/music/barkod-okuyucu_sesi.mp3",
+            "local_path": "./music/barkod-okuyucu_sesi.mp3",
+            "updated": "2024-11-01 00:00:00"
+        }
+    ]
+}
