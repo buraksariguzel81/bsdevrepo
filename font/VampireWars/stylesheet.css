@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Vampire Wars';
+    src: url('VampireWars.woff2') format('woff2'),
+        url('VampireWars.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

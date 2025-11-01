@@ -1,0 +1,83 @@
+# Site.pro tarafından desteklenmektedir
+
+# PageSpeed modülünü devre dışı bırak
+<IfModule pagespeed_module>
+    ModPagespeed off
+</IfModule>
+
+# Dosya türlerine göre önbellek sürelerini ayarla
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault A0
+    # Resimler, CSS, JavaScript ve fontlar için 8 günlük önbellek süresi
+    ExpiresByType image/gif A691200
+    ExpiresByType image/png A691200
+    ExpiresByType image/jpeg A691200
+    ExpiresByType text/css A691200
+    ExpiresByType text/javascript A691200
+    ExpiresByType application/javascript A691200
+    ExpiresByType font/otf A691200
+    ExpiresByType font/ttf A691200
+    ExpiresByType font/woff A691200
+    ExpiresByType font/woff2 A691200
+</IfModule>
+
+# web.config dosyasına erişimi engelle
+<FilesMatch "^(web\.config)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+    </IfModule>
+</FilesMatch>
+
+# Özel hata mesajları
+ErrorDocument 401 "Yetkisiz Erişim"
+ErrorDocument 403 "Erişim Yasak"
+
+# MultiViews seçeneğini devre dışı bırak (şu anda yorumda)
+<IfModule mod_negotiation.c>
+    #Options -MultiViews
+</IfModule>
+
+# URL yeniden yazma motorunu etkinleştir
+RewriteEngine On
+RewriteBase /
+
+# Yetkilendirme başlığını koru
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+
+# X-Server-Addr başlığını koru
+RewriteCond %{HTTP:X-Server-Addr} ^(.*)
+RewriteRule .* - [e=HTTP_X_SERVER_ADDR:%1]
+
+# .well-known dizinine erişime izin ver
+RewriteRule ^\.well-known/.+ - [L]
+
+# Varsayılan dizin dosyalarını ayarla
+DirectoryIndex index.php index.cgi index.html
+
+# Özel 404 ve 500 hata sayfaları
+ErrorDocument 404 /error/404.php
+ErrorDocument 500 /error/500.php
+
+###################################################
+# 🚀 EKLENEN KISIM - React Fetch için CORS + JSON #
+###################################################
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+</IfModule>
+
+# Preflight OPTIONS isteğine hızlı yanıt
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ $1 [R=200,L]
+
+
+# JSON MIME tipi düzeltmesi
+AddType application/json .json

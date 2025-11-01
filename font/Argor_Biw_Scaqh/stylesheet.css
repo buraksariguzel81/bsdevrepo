@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Argor Biw Scaqh';
+    src: url('ArgorBiwScaqh.woff2') format('woff2'),
+        url('ArgorBiwScaqh.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

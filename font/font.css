@@ -1,0 +1,265 @@
+/* Otomatik @font-face ve class tanımları - 2025-10-29 09:31:53 */
+
+@font-face {
+    font-family: 'Alba';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Alba/Alba.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Alba/Alba.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Alba {
+    font-family: 'Alba', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Argor_Biw_Scaqh';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Argor_Biw_Scaqh/ArgorBiwScaqh.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Argor_Biw_Scaqh/ArgorBiwScaqh.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Argor_Biw_Scaqh {
+    font-family: 'Argor_Biw_Scaqh', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BlackOpsOne';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/BlackOpsOne/BlackOpsOne-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.BlackOpsOne {
+    font-family: 'BlackOpsOne', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BristleRadiant';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/BristleRadiant/BristleRadiantDEMOVERSION.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/BristleRadiant/BristleRadiantDEMOVERSION.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.BristleRadiant {
+    font-family: 'BristleRadiant', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brolink';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Brolink/BrolinkDEMO.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Brolink/BrolinkDEMO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Brolink {
+    font-family: 'Brolink', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GodOfWar';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/GodOfWar/GodOfWar.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/GodOfWar/GodOfWar.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.GodOfWar {
+    font-family: 'GodOfWar', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Langdon';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Langdon/Langdon.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Langdon/Langdon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Langdon {
+    font-family: 'Langdon', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeviBrush';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/LeviBrush/LeviBrush.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/LeviBrush/LeviBrush.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.LeviBrush {
+    font-family: 'LeviBrush', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MagicVintageRegular';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/MagicVintageRegular/MagicVintageRegular.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/MagicVintageRegular/MagicVintageRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.MagicVintageRegular {
+    font-family: 'MagicVintageRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Moonstar';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Moonstar/Moonstar.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Moonstar/Moonstar.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Moonstar {
+    font-family: 'Moonstar', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nabla';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Nabla/NablaRegular.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Nabla/NablaRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Nabla {
+    font-family: 'Nabla', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PottaOne';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/PottaOne/PottaOneRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.PottaOne {
+    font-family: 'PottaOne', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Righteous';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Righteous/RighteousRegular.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Righteous/RighteousRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Righteous {
+    font-family: 'Righteous', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Skranji';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Skranji/Skranji.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Skranji/Skranji.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Skranji {
+    font-family: 'Skranji', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SquimFont';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/SquimFont/SquimFont.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/SquimFont/SquimFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.SquimFont {
+    font-family: 'SquimFont', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Turkish_Participants';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Turkish_Participants/TurkishParticipants.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/Turkish_Participants/TurkishParticipants.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Turkish_Participants {
+    font-family: 'Turkish_Participants', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UnicornPop';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/UnicornPop/UnicornPop.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/UnicornPop/UnicornPop.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.UnicornPop {
+    font-family: 'UnicornPop', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VampireWars';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/VampireWars/VampireWars.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/VampireWars/VampireWars.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.VampireWars {
+    font-family: 'VampireWars', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ethnocentric';
+    src: url('https://cdn.jsdelivr.net/gh/buraksariguzel81/bsdevrepo@main/font/ethnocentric/ethnocentric-rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ethnocentric {
+    font-family: 'ethnocentric', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+

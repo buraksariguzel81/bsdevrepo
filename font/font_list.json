@@ -1,0 +1,191 @@
+{
+    "fonts": [
+        {
+            "name": "Alba",
+            "class": ".Alba",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Alba\/Alba.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Alba\/Alba.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Alba\/Alba.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "Argor_Biw_Scaqh",
+            "class": ".Argor_Biw_Scaqh",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Argor_Biw_Scaqh\/ArgorBiwScaqh.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Argor_Biw_Scaqh\/ArgorBiwScaqh.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Argor_Biw_Scaqh\/ArgorBiwScaqh.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "BlackOpsOne",
+            "class": ".BlackOpsOne",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/BlackOpsOne\/BlackOpsOne-Regular.woff2"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/BlackOpsOne\/BlackOpsOne-Regular.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "BristleRadiant",
+            "class": ".BristleRadiant",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/BristleRadiant\/BristleRadiantDEMOVERSION.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/BristleRadiant\/BristleRadiantDEMOVERSION.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/BristleRadiant\/BristleRadiantDEMOVERSION.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "Brolink",
+            "class": ".Brolink",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Brolink\/BrolinkDEMO.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Brolink\/BrolinkDEMO.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Brolink\/BrolinkDEMO.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "GodOfWar",
+            "class": ".GodOfWar",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/GodOfWar\/GodOfWar.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/GodOfWar\/GodOfWar.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/GodOfWar\/GodOfWar.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "Langdon",
+            "class": ".Langdon",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Langdon\/Langdon.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Langdon\/Langdon.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Langdon\/Langdon.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "LeviBrush",
+            "class": ".LeviBrush",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/LeviBrush\/LeviBrush.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/LeviBrush\/LeviBrush.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/LeviBrush\/LeviBrush.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "MagicVintageRegular",
+            "class": ".MagicVintageRegular",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/MagicVintageRegular\/MagicVintageRegular.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/MagicVintageRegular\/MagicVintageRegular.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/MagicVintageRegular\/MagicVintageRegular.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "Moonstar",
+            "class": ".Moonstar",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Moonstar\/Moonstar.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Moonstar\/Moonstar.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Moonstar\/Moonstar.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "Nabla",
+            "class": ".Nabla",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Nabla\/NablaRegular.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Nabla\/NablaRegular.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Nabla\/NablaRegular.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "PottaOne",
+            "class": ".PottaOne",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/PottaOne\/PottaOneRegular.woff2"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/PottaOne\/PottaOneRegular.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "Righteous",
+            "class": ".Righteous",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Righteous\/RighteousRegular.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Righteous\/RighteousRegular.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Righteous\/RighteousRegular.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "Skranji",
+            "class": ".Skranji",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Skranji\/Skranji.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Skranji\/Skranji.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Skranji\/Skranji.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "SquimFont",
+            "class": ".SquimFont",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/SquimFont\/SquimFont.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/SquimFont\/SquimFont.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/SquimFont\/SquimFont.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "Turkish_Participants",
+            "class": ".Turkish_Participants",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Turkish_Participants\/TurkishParticipants.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Turkish_Participants\/TurkishParticipants.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/Turkish_Participants\/TurkishParticipants.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "UnicornPop",
+            "class": ".UnicornPop",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/UnicornPop\/UnicornPop.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/UnicornPop\/UnicornPop.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/UnicornPop\/UnicornPop.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "VampireWars",
+            "class": ".VampireWars",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/VampireWars\/VampireWars.woff2",
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/VampireWars\/VampireWars.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/VampireWars\/VampireWars.woff2",
+            "updated": "2025-10-29 09:31:53"
+        },
+        {
+            "name": "ethnocentric",
+            "class": ".ethnocentric",
+            "urls": [
+                "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/ethnocentric\/ethnocentric-rg.woff"
+            ],
+            "primary_url": "https:\/\/cdn.jsdelivr.net\/gh\/buraksariguzel81\/bsdevrepo@main\/font\/ethnocentric\/ethnocentric-rg.woff",
+            "updated": "2025-10-29 09:31:53"
+        }
+    ]
+}
