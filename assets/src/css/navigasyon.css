@@ -273,3 +273,97 @@ display: block;
 margin-top: 0; /* Menü tıklama gibi düzgün açılsın */
 }
 
+
+/* Asset Badge Stilleri */
+.bsd-asset-badges {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.bsd-asset-badges .badge {
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.bsd-asset-badges .badge:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.bsd-mobile-stats {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+}
+
+.bsd-mobile-stats h6 {
+  color: #495057;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.bsd-mobile-stats .badge {
+  font-size: 10px;
+  padding: 3px 6px;
+  border-radius: 8px;
+}
+
+/* Responsive Asset Badges */
+@media (max-width: 768px) {
+  .bsd-asset-badges {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .bsd-mobile-stats {
+    display: none !important;
+  }
+}
+
+/* Asset Badge Animasyonları */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.bsd-asset-badges .badge.bg-primary {
+  background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%) !important;
+}
+
+.bsd-asset-badges .badge.bg-success {
+  background: linear-gradient(135deg, #198754 0%, #146c43 100%) !important;
+}
+
+.bsd-asset-badges .badge.bg-info {
+  background: linear-gradient(135deg, #0dcaf0 0%, #087990 100%) !important;
+}
+
+/* Hover efektleri */
+.bsd-asset-badges .badge:hover {
+  animation: pulse 0.6s ease-in-out;
+  cursor: pointer;
+}
+
+/* Tooltip benzeri efekt */
+.bsd-asset-badges .badge[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 10px;
+  white-space: nowrap;
+  z-index: 1000;
+  margin-bottom: 5px;
+}

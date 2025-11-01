@@ -1,3 +1,7 @@
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . '/assets/src/include/navigasyon.php');
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -9,22 +13,24 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
+            padding: 0;
             background: #f5f5f5;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
+            padding: 20px;
         }
 
         .header {
-            background: #333;
+            background: linear-gradient(135deg, #333 0%, #555 100%);
             color: white;
             padding: 20px;
             border-radius: 8px;
             margin-bottom: 20px;
             text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
         .btn {
@@ -310,6 +316,9 @@
         ?>
 
     </div>
+
+    </div> <!-- bsd-content kapatma -->
+
 </body>
 
 </html>
